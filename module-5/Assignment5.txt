@@ -1,0 +1,93 @@
+Reflective Inspection of Objects
+
+Objective: To explore reflection and object inspection in Ruby.
+
+Task:
+
+In this assignment, students will develop a Ruby program that leverages reflection techniques to inspect and display information about objects at runtime. They will explore an object's class, methods, attributes, and other properties using reflection, allowing them to gain a deeper understanding of how Ruby handles objects and their structure.
+
+Instructions:
+
+Choose or Create a Ruby Program:
+
+Students can either choose an existing Ruby program they have written or create a new one for this assignment. The program should have multiple objects of different classes.
+Implement Reflective Inspection:
+
+Instruct students to enhance their program with reflective inspection capabilities. They should use reflection techniques to:
+Identify the class of an object.
+List the methods available for an object.
+Display attributes and their values for an object.
+Explore other object-related properties if applicable.
+Interactive Inspection:
+
+Encourage students to make the inspection process interactive, allowing them to choose objects to inspect during program execution.
+They can use command-line prompts or user input to select objects or classes for inspection.
+Documentation:
+
+Require students to provide comments and documentation within their program to explain how they implemented reflective inspection and its purpose.
+Encourage them to provide examples of how reflection is applied to objects in their program.
+Example (Reflective Inspection in an Object-Oriented Program):
+
+
+# Define classes with methods and attributes
+class Person
+  attr_accessor :name, :age
+
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  def greet
+    "Hello, my name is #{@name}, and I am #{@age} years old."
+  end
+end
+
+class Book
+  attr_accessor :title, :author
+
+  def initialize(title, author)
+    @title = title
+    @author = author
+  end
+
+  def summary
+    "#{@title} by #{@author}"
+  end
+end
+
+# Create instances of the classes
+person = Person.new('Alice', 30)
+book = Book.new('Ruby Programming', 'John Doe')
+
+# Reflective inspection function
+def inspect_object(obj)
+  puts "Class: #{obj.class}"
+  puts "Methods: #{obj.methods - Object.methods}"
+  puts "Attributes:"
+  obj.instance_variables.each do |var|
+    puts "  #{var}: #{obj.instance_variable_get(var)}"
+  end
+end
+
+# Interactive inspection
+puts 'Select an object to inspect (person or book):'
+choice = gets.chomp.downcase
+
+case choice
+when 'person'
+  inspect_object(person)
+when 'book'
+  inspect_object(book)
+else
+  puts 'Invalid choice.'
+end
+
+
+Evaluation Criteria:
+
+Successful implementation of reflective inspection techniques to gather information about objects at runtime.
+Interactive inspection allowing users to choose objects or classes for inspection.
+Clear and organized code with comments explaining the implementation of reflective inspection and its purpose.
+Proper display of object class, methods, attributes, and other relevant properties.
+Accuracy in listing methods and attributes specific to the objects being inspected.

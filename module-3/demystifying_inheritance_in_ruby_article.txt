@@ -1,0 +1,90 @@
+Title: Demystifying Inheritance in Ruby: Building Class Hierarchies
+
+As a beginner Ruby coder, you're on a quest to uncover the secrets of effective and organized programming. In this article, we'll unveil the magic of inheritance—an essential concept that lets you create powerful hierarchies of classes. Prepare to embark on a journey into the realm of class relationships, as we explain the syntax, benefits, and usage of inheritance in Ruby.
+
+Understanding Inheritance: Building Class Hierarchies
+
+Inheritance is like the foundation of a magnificent palace, providing a solid base upon which you can build various rooms and chambers. In programming, it's a mechanism that allows you to define a new class based on an existing one. The new class inherits the attributes and behaviors of the existing class, while also having the flexibility to add its own unique features.
+
+Syntax for Defining Subclasses: Extending the Legacy
+
+In Ruby, you can create a subclass by using the < symbol to indicate the inheritance relationship. The subclass inherits the characteristics of the parent class and can also introduce its own attributes and methods.
+
+
+class Animal
+  def speak
+    puts "Animal speaks"
+  end
+end
+
+class Dog < Animal
+  def speak
+    puts "Dog barks"
+  end
+end
+
+
+In this example, Dog is a subclass of Animal. It inherits the speak method from Animal, but also has its own version of the method that's specific to dogs.
+
+The Superpower of the super Keyword: Calling Overridden Methods
+
+Imagine you're building an Employee class with a calculate_salary method. Later, you create a more specialized Manager class that inherits from Employee. You want to enhance the calculate_salary method for managers. Here, the super keyword comes to your rescue.
+
+
+class Employee
+  def calculate_salary
+    puts "Calculating salary for employee"
+  end
+end
+
+class Manager < Employee
+  def calculate_salary
+    puts "Calculating salary for manager"
+    super
+  end
+end
+
+
+In this case, when the calculate_salary method of Manager is invoked, it first prints "Calculating salary for manager" and then uses super to call the overridden calculate_salary method of the parent class, Employee.
+
+Benefits of Inheritance: The Power of Reusability
+
+Code Reusability: Inheritance enables you to reuse existing code. Instead of duplicating common attributes and behaviors across multiple classes, you can define them once in a parent class and have subclasses inherit them.
+
+Maintainability: When you need to make changes or additions to a shared attribute or method, you can update the parent class, and the changes will automatically reflect in all subclasses.
+
+Organized Structure: Inheritance helps create an organized hierarchy of classes, making your codebase more manageable and logical.
+
+The Real-World Analogy: Nature's Inheritance
+
+To help you grasp the concept better, think of inheritance in programming as akin to genetic inheritance in the natural world. Just as children inherit genetic traits from their parents, Ruby subclasses inherit attributes and behaviors from their parent classes. But just as children can develop their own unique characteristics, Ruby subclasses can add their own methods and attributes.
+
+Putting It All Together: A Practical Example
+
+
+class Shape
+  def area
+    raise NotImplementedError, "Subclasses must implement this method"
+  end
+end
+
+class Circle < Shape
+  attr_reader :radius
+
+  def initialize(radius)
+    @radius = radius
+  end
+
+  def area
+    Math::PI * @radius**2
+  end
+end
+
+
+Here, the Shape class serves as a blueprint, defining the area method as a placeholder. The Circle class, a subclass of Shape, inherits the area method and adds its own logic for calculating the area of a circle.
+
+Conclusion: Ascending the Inheritance Hierarchy
+
+Inheritance is like an elevator that takes your code to new heights. By creating hierarchies of classes, you're able to encapsulate common attributes and behaviors, while still allowing for customization in subclasses. The < symbol serves as your key to unlocking the magic of inheritance, enabling you to build powerful and organized class relationships.
+
+As you delve deeper into the world of Ruby coding, remember that inheritance is a tool of elegance and efficiency. It empowers you to write cleaner, more organized code, and provides a framework for expanding your programs with ease. So go forth, beginner Ruby coder, and ascend the hierarchy of inheritance—where the possibilities are as vast as your imagination.

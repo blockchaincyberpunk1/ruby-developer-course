@@ -1,0 +1,75 @@
+Building a Blogging Platform (Part 1) - Models
+
+Objective: To practice creating models and database associations in Ruby on Rails.
+
+Task:
+
+In this assignment, students will continue working on their Ruby on Rails application for a blogging platform. They will define the models for "User" and "Post" and set up associations between these models, establishing a one-to-many relationship. This assignment focuses on creating the database structure and relationships necessary for a blogging platform.
+
+Instructions:
+
+Building the Application:
+
+Students should continue working on the Ruby on Rails application created in Assignment 1 (Set Up a Basic Rails Application).
+Model Creation:
+
+Instruct students to create two models: "User" and "Post."
+The "User" model should have attributes like name, email, and password for user registration.
+The "Post" model should have attributes like title, content (as text), and a foreign key referencing the user who created the post.
+Database Associations:
+
+Set up the appropriate associations between the "User" and "Post" models.
+Create a one-to-many relationship where a user can have multiple posts, but each post belongs to a single user.
+Database Migrations:
+
+Have students generate database migrations for the "User" and "Post" models to create the corresponding database tables.
+
+
+rails generate migration CreateUsers
+rails generate migration CreatePosts
+
+
+Implement Database Schema:
+
+Instruct students to edit the generated migration files to define the schema for the "User" and "Post" tables.
+Add any necessary constraints, indexes, or foreign key associations in the migration files.
+Run Migrations:
+
+Guide students to run the database migrations to create the tables in the database.
+
+rails db:migrate
+
+
+Validation (Optional):
+
+Encourage students to add validation rules to the models, ensuring that required fields are present and emails are unique, for example.
+Documentation:
+
+Require students to provide documentation within their code or comments explaining the purpose and relationships of the models.
+Example (User and Post Models):
+
+
+# User Model (user.rb)
+class User < ApplicationRecord
+  has_many :posts
+  validates :name, presence: true
+  validates :email, presence: true, uniqueness: true
+  # Add password validation as needed.
+end
+
+# Post Model (post.rb)
+class Post < ApplicationRecord
+  belongs_to :user
+  validates :title, presence: true
+  validates :content, presence: true
+end
+
+
+Evaluation Criteria:
+
+Successful creation of "User" and "Post" models.
+Proper definition of database associations (one-to-many relationship).
+Correct implementation of database migrations with appropriate schema definitions.
+Optional: Validation rules applied to models.
+Clear and organized code with comments explaining model functionality.
+Adherence to Rails conventions and best practices.

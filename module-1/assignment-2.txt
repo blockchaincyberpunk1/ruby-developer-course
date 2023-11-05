@@ -1,0 +1,46 @@
+Assignment: Enhancing Your Ruby Program
+
+Assignment Overview:
+In this assignment, you will build upon the simple Ruby program you created earlier and enhance it by incorporating additional control structures and functions. The goal is to challenge yourself and achieve a more complex outcome using the Ruby programming language.
+
+Instructions:
+
+Step 1: Review Your Previous Program
+Review the simple Ruby program you wrote for the previous activity.
+Familiarize yourself with the variables, conditionals, and loops used in that program.
+
+Step 2: Identifying Enhancements
+Identify specific areas of your program that can be enhanced or expanded to achieve a more complex outcome.
+Consider adding new control structures (e.g., case statements, nested conditionals) or creating new functions to encapsulate functionality.
+
+Step 3: Choosing Enhancements
+Select at least two enhancements you would like to implement in your program.
+Decide how these enhancements will contribute to achieving a more complex or sophisticated outcome.
+
+Step 4: Implementing Enhancements
+Modify your existing program to incorporate the chosen enhancements.
+Write new code to introduce the additional control structures or functions.
+
+Step 5: Testing and Validation
+Test your enhanced program with various inputs to ensure it functions as intended.
+Validate that the added control structures or functions contribute to the complexity and sophistication of the program's outcome.
+
+Step 6: Documentation and Reflection
+Document the enhancements you made to your program, explaining the purpose and functionality of each addition.
+Reflect on the challenges you faced while enhancing your program and the lessons you learned.
+
+Additional Instructions:
+
+Function Modularity: Ensure your enhancements are encapsulated within functions for better code organization.
+Enhancement Creativity: Challenge yourself to think creatively and incorporate enhancements that significantly elevate the program's complexity.
+Code Clarity: Maintain clear and concise code structure with proper indentation and comments.
+Submission:
+Compile your enhanced Ruby program file, updated documentation, and reflection into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+Your assignment will be assessed based on the creativity and complexity of the enhancements, the correctness of your program, and the clarity of your documentation.
+
+Submission:
+Compile your assignment files (enhanced Ruby program file, updated documentation, reflection, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment provides an opportunity for you to extend your Ruby programming skills by incorporating advanced control structures and functions. Enjoy the process of enhancing your program and exploring new possibilities!

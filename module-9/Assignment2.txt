@@ -1,0 +1,35 @@
+Ruby Meetup or Conference Attendance
+
+Objective: To promote real-world engagement with the Ruby community.
+
+Task:
+
+In this assignment, students will have the opportunity to immerse themselves in the Ruby community by attending a Ruby meetup, conference, or workshop. Participating in such events allows students to learn from experts, network with like-minded individuals, and gain insights into the latest trends and best practices in Ruby development.
+
+Instructions:
+
+Event Selection:
+
+Instruct students to find and select a Ruby meetup, conference, or workshop that they can attend either locally or virtually. There are various events held worldwide, so they should choose one that aligns with their interests and availability.
+Event Participation:
+
+Task students with actively participating in the chosen Ruby event. They should:
+Attend talks, sessions, or workshops during the event.
+Engage in networking opportunities, such as connecting with speakers, fellow attendees, or event organizers.
+Ask questions and seek clarification on topics of interest.
+Take notes or record key insights and takeaways from the event.
+Experiences and Insights:
+
+Require students to share their experiences and insights gained from the event. They can do this through:
+A written report: Write a report summarizing the event, including key themes, notable speakers, and any new knowledge or skills acquired.
+A presentation: Prepare a short presentation highlighting the event's highlights and takeaways. Students can use slides or other presentation tools.
+Valuable Connections:
+
+Encourage students to mention any valuable connections they made during the event, whether with speakers, fellow attendees, or industry professionals. These connections can be in the form of contacts, LinkedIn connections, or potential mentors.
+Evaluation Criteria:
+
+Evidence of attendance and active participation in a Ruby meetup, conference, or workshop.
+Meaningful engagement with event content, including attending talks, sessions, or workshops.
+Demonstrated networking efforts and engagement with fellow Ruby developers.
+A well-structured report or presentation that summarizes the event and highlights key takeaways.
+Mention of any valuable connections made during the event and their potential impact.

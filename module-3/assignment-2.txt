@@ -1,0 +1,106 @@
+Assignment: Creating a Multi-Level Class Hierarchy in Ruby
+
+Assignment Overview:
+In this assignment, you will create a multi-level class hierarchy in Ruby to demonstrate the concepts of inheritance with multiple levels of parent and child classes. You will explore method overriding and the utilization of inheritance to build a complex class structure.
+
+Instructions:
+
+Step 1: Class Hierarchy Definition
+Define a base class named Animal.
+Create two subclasses: Mammal and Reptile.
+
+Step 2: Subclassing and Method Overrides
+
+In the Mammal class:
+
+Inherit from the Animal class.
+Override the sound method to return a common mammal sound.
+Here's the Ruby code for the Animal class and the Mammal class:
+
+ruby
+Copy code
+class Animal
+  def sound
+    "Generic animal sound"
+  end
+end
+
+class Mammal < Animal
+  def sound
+    "Mammal sound"
+  end
+end
+In the Reptile class:
+
+Inherit from the Animal class.
+Override the sound method to return a common reptile sound.
+Here's the Ruby code for the Reptile class:
+
+ruby
+Copy code
+class Reptile < Animal
+  def sound
+    "Reptile sound"
+  end
+end
+Step 3: Subclassing Again
+
+Create two subclasses of Mammal: Dog and Cat.
+
+In the Dog class:
+
+Override the sound method to return a dog-specific sound.
+In the Cat class:
+
+Override the sound method to return a cat-specific sound.
+Here's the Ruby code for the Dog class and the Cat class:
+
+ruby
+Copy code
+class Dog < Mammal
+  def sound
+    "Woof woof"
+  end
+end
+
+class Cat < Mammal
+  def sound
+    "Meow meow"
+  end
+end
+Step 4: Creating Instances and Method Calls
+
+Create instances of the Dog and Cat classes.
+Call the sound method on each instance to observe the method override in action.
+
+ruby
+Copy code
+# Create instances
+dog = Dog.new
+cat = Cat.new
+
+# Call sound method on instances
+puts "Dog sound: #{dog.sound}"
+puts "Cat sound: #{cat.sound}"
+Step 5: Documentation and Reflection
+
+Document your class hierarchy, methods, and method overrides with clear comments.
+Reflect on your experience of creating a multi-level class hierarchy and the behavior of overridden methods.
+
+Additional Instructions:
+
+Method Overrides: Ensure that the overridden methods provide distinct sounds for each animal type.
+Code Clarity: Organize your code with proper indentation and clear comments.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the correctness of your class hierarchy, the proper use of inheritance and method overrides, and the clarity of your code and documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment provides an opportunity for you to delve into a multi-level class hierarchy, explore method overrides, and witness the effects of inheritance in action using the Ruby programming language. Enjoy the process of designing and understanding complex class structures!

@@ -1,0 +1,100 @@
+Assignment: Exploring Mixins and Reusable Modules in Ruby
+
+Assignment Overview:
+In this assignment, you will learn about the concept of mixins in Ruby by creating a module containing reusable methods and incorporating it into different classes. Mixins provide a powerful way to share functionality across multiple classes, enhancing code modularity and reusability.
+
+Instructions:
+
+Step 1: Module Creation
+Create a module named HelperMethods.
+Define several methods within the module that can be reused across different classes.
+
+Here's the Ruby code for the HelperMethods module:
+
+ruby
+Copy code
+module HelperMethods
+  def format_name(name)
+    name.capitalize
+  end
+
+  def calculate_discount(price, discount_percentage)
+    price * (discount_percentage / 100.0)
+  end
+end
+Step 2: Class Incorporation
+Create two different classes that represent distinct concepts (e.g., Person and Product).
+Incorporate the HelperMethods module into both classes.
+
+Incorporating the HelperMethods module into the Person class:
+
+ruby
+Copy code
+class Person
+  include HelperMethods
+
+  def initialize(name)
+    @name = name
+  end
+
+  def greet
+    formatted_name = format_name(@name)
+    puts "Hello, #{formatted_name}!"
+  end
+end
+Incorporating the HelperMethods module into the Product class:
+
+ruby
+Copy code
+class Product
+  include HelperMethods
+
+  def initialize(name, price, discount_percentage)
+    @name = name
+    @price = price
+    @discount_percentage = discount_percentage
+  end
+
+  def calculate_final_price
+    discounted_price = calculate_discount(@price, @discount_percentage)
+    puts "Final price of #{@name}: $#{discounted_price}"
+  end
+end
+Step 3: Method Usage
+Inside each class, utilize the methods provided by the HelperMethods module to enhance the class's functionality.
+Implement class-specific methods along with the reusable methods from the module.
+
+Step 4: Creating Instances and Calling Methods
+Create instances of both classes.
+Demonstrate how the methods from the HelperMethods module can be called on instances of different classes.
+
+ruby
+Copy code
+person = Person.new("alice")
+person.greet
+
+product = Product.new("Laptop", 1000, 10)
+product.calculate_final_price
+Step 5: Documentation and Reflection
+Document the creation of the HelperMethods module and its methods.
+Explain how the module was incorporated into different classes and its impact on code reusability.
+Reflect on the benefits of using mixins to share functionality among classes.
+
+Additional Instructions:
+
+Method Modularity: Ensure that the methods within the HelperMethods module are designed to be reusable and generic.
+Mixin Implementation: Show how to incorporate the module into the classes using the appropriate Ruby syntax.
+Code Clarity: Organize your code with proper indentation and clear comments.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the proper implementation of mixins, the correctness of your module's methods, and the clarity of your documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment provides an opportunity for you to explore the concept of mixins in Ruby and understand how reusable modules can be incorporated into different classes. Enjoy the process of designing modular and reusable code!

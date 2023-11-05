@@ -1,0 +1,119 @@
+Assignment: Exploring Arrays and Hashes in Ruby
+
+Assignment Overview:
+In this assignment, you will dive into the world of arrays and hashes in Ruby. You will engage in hands-on exercises that involve creating arrays and hashes, performing various operations on them, and practicing element manipulation.
+
+Instructions:
+
+Part 1: Exploring Arrays
+
+Step 1: Create an empty array named fruits.
+
+ruby
+Copy code
+fruits = []
+Step 2: Add the following fruits to the array: "apple", "banana", "orange", "grape", "watermelon".
+
+ruby
+Copy code
+fruits.push("apple", "banana", "orange", "grape", "watermelon")
+Step 3: Display the contents of the array using the puts method.
+
+ruby
+Copy code
+puts fruits.inspect
+Step 4: Replace "banana" with "kiwi" and update the array.
+
+ruby
+Copy code
+fruits[1] = "kiwi"
+Step 5: Remove "orange" from the array.
+
+ruby
+Copy code
+fruits.delete("orange")
+Step 6: Find and display the length of the array using the length method.
+
+ruby
+Copy code
+length = fruits.length
+puts "The length of the array is: #{length}"
+Step 7: Access and display the first and last elements of the array.
+
+ruby
+Copy code
+first_fruit = fruits.first
+last_fruit = fruits.last
+puts "First fruit: #{first_fruit}, Last fruit: #{last_fruit}"
+Step 8: Sort the array in alphabetical order and display the sorted result.
+
+ruby
+Copy code
+sorted_fruits = fruits.sort
+puts "Sorted fruits: #{sorted_fruits.inspect}"
+Part 2: Exploring Hashes
+
+Step 1: Create an empty hash named person.
+
+ruby
+Copy code
+person = {}
+Step 2: Add the following key-value pairs to the hash:
+
+ruby
+Copy code
+person["name"] = "Alice"
+person["age"] = 25
+person["occupation"] = "Software Engineer"
+Step 3: Display the contents of the hash using the puts method.
+
+ruby
+Copy code
+puts person.inspect
+Step 4: Update the value associated with the "age" key to 26.
+
+ruby
+Copy code
+person["age"] = 26
+Step 5: Remove the "occupation" key-value pair from the hash.
+
+ruby
+Copy code
+person.delete("occupation")
+Step 6: Check if the hash contains the key "address" and display the result.
+
+ruby
+Copy code
+contains_address = person.key?("address")
+puts "Contains address key? #{contains_address}"
+Step 7: Access and display the value associated with the "name" key.
+
+ruby
+Copy code
+name_value = person["name"]
+puts "Name: #{name_value}"
+Step 8: Display all keys and values in the hash using appropriate methods.
+
+ruby
+Copy code
+keys = person.keys
+values = person.values
+puts "Keys: #{keys.inspect}"
+puts "Values: #{values.inspect}"
+Additional Instructions:
+
+Documentation: Include comments that explain the purpose and functionality of each part of your code.
+Code Clarity: Maintain a well-organized code structure with proper indentation.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on your ability to create, manipulate, and interact with arrays and hashes, as well as the clarity of your documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment provides practical exercises to build confidence in working with arrays and hashes, essential data structures in Ruby programming. Enjoy the process of learning and exploring these concepts!

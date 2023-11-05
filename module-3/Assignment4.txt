@@ -1,0 +1,40 @@
+Designing a Library System
+
+Objective: To apply object-oriented principles in a real-world scenario.
+
+Task:
+In this assignment, students will design a library system using object-oriented programming principles in Ruby. They will create classes such as Book, Library, and Member to model the library's operations and demonstrate the use of inheritance for different types of library members. The goal is to provide students with a hands-on experience in applying object-oriented concepts to a practical scenario. Here are the details of the assignment:
+
+Define Classes:
+
+Instruct students to define the following classes with appropriate attributes and methods:
+Book: Represents a book with attributes like title, author, ISBN, and availability status. Implement methods for checking out and returning books.
+Library: Represents the library itself, managing books and members. Implement methods for adding books, checking book availability, and tracking due dates.
+Member: Represents a library member with attributes like name, ID, and membership type. Implement methods for viewing borrowed books and membership status.
+Encourage students to use proper encapsulation by making attributes private and creating getter and setter methods where necessary.
+Inheritance and Polymorphism:
+
+Demonstrate the use of inheritance by creating subclasses of the Member class. For example, create classes like StudentMember and FacultyMember that inherit from Member.
+Each subclass should have unique attributes and behaviors. For instance, a StudentMember might have a maximum allowed book limit.
+Implement polymorphic behavior, allowing the Library class to work with different types of members without knowing their specific types.
+Simulate Library Operations:
+
+Instruct students to create instances of the Library, Book, and Member classes to simulate library operations.
+Showcase how books are added to the library's collection and how members borrow and return books.
+Implement logic to enforce borrowing limits, track due dates, and update book availability.
+User Interaction (Optional):
+
+If desired, students can implement a simple command-line interface to allow users to interact with the library system. Users can borrow books, return books, and check their membership status.
+Code Documentation:
+
+Emphasize the importance of adding comments and documentation to their code to explain the purpose of each class, method, and attribute.
+Encourage students to include explanations for their design choices.
+Evaluation Criteria:
+
+Correct definition of the Book, Library, and Member classes with appropriate attributes and methods.
+Successful use of inheritance to create subclasses such as StudentMember and FacultyMember.
+Proper encapsulation of attributes and methods.
+Accurate simulation of library operations, including book borrowing and returning.
+Effective use of polymorphism to handle different types of members.
+Clear code documentation and comments for clarity and understanding.
+Optional user interaction component (if implemented).

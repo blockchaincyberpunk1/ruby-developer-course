@@ -1,0 +1,47 @@
+Basic Ruby Syntax
+
+Objective: To practice basic Ruby syntax and concepts.
+
+Task:
+In this assignment, students will focus on mastering fundamental Ruby syntax and concepts. They will complete several tasks that involve variable declaration, control structures, function creation, and basic input/output operations.
+
+Instructions:
+
+Hello, World!
+
+Write a Ruby program that displays "Hello, World!" on the console when executed.
+Variable Declaration:
+
+Declare variables to store the following data types:
+An integer (e.g., age) with your age.
+A string (e.g., name) with your name.
+A floating-point number (e.g., gpa) with a hypothetical grade point average.
+Basic Arithmetic:
+
+Create functions (methods) that perform basic arithmetic operations on the variables declared above.
+Addition: Write a function that adds two integers and returns the result.
+Subtraction: Write a function that subtracts one integer from another and returns the result.
+Multiplication: Write a function that multiplies two integers and returns the result.
+Division: Write a function that divides one integer by another and returns the result.
+Control Structures:
+
+Implement a simple decision-making process using an if statement.
+For example, you can write a function that takes an age as input and uses an if statement to check whether the person is old enough to vote (e.g., age >= 18).
+Input/Output:
+
+Modify your program to take user input for variables like age and name.
+Display the results of arithmetic operations along with user input.
+Documentation:
+
+Include comments and documentation in your code to explain each section of the program and the purpose of functions/methods.
+Testing:
+
+Test your program with various inputs to ensure it produces correct results.
+Evaluation Criteria:
+
+Correctness of the "Hello, World!" message and variable declarations.
+Accurate implementation of arithmetic functions.
+Proper use of control structures (if statements).
+Successful handling of user input and display of results.
+Clarity and completeness of code comments and documentation.
+Thorough testing to ensure program functionality.

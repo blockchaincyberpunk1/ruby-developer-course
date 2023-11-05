@@ -1,0 +1,68 @@
+# Assignment: Exploring Enumerable Methods in Ruby
+
+# Assignment Overview:
+# In this assignment, you will dive into the world of enumerable methods in Ruby.
+# Enumerable methods provide powerful tools for performing operations on collections like arrays and hashes.
+# You will engage in hands-on exercises that involve using various enumerable methods to filter, map, and reduce data within arrays and hashes.
+
+# Part 1: Exploring Enumerable Methods on Arrays
+
+# Step 1: Create an array named numbers containing the following integers: 2, 4, 6, 8, 10.
+numbers = [2, 4, 6, 8, 10]
+
+# Step 2: Use enumerable methods to perform the following tasks:
+
+# a. Filter the array to select only even numbers.
+even_numbers = numbers.select { |num| num.even? }
+
+# b. Double each element in the array using the map method.
+doubled_numbers = numbers.map { |num| num * 2 }
+
+# c. Calculate the sum of all elements using the reduce method.
+sum = numbers.reduce(0) { |total, num| total + num }
+
+# d. Find the maximum element in the array using appropriate methods.
+max_number = numbers.max
+
+# e. Determine if any element is greater than 10 using enumerable methods.
+any_greater_than_10 = numbers.any? { |num| num > 10 }
+
+# Part 2: Exploring Enumerable Methods on Hashes
+
+# Step 1: Create a hash named students with the following key-value pairs:
+students = {
+  "Alice" => 95,
+  "Bob" => 80,
+  "Charlie" => 70,
+  "David" => 85,
+  "Eve" => 92
+}
+
+# Step 2: Use enumerable methods to perform the following tasks:
+
+# a. Filter the hash to select students with scores greater than 85.
+top_students = students.select { |name, score| score > 85 }
+
+# b. Create a new hash where each student's score is increased by 10 using the transform_values method.
+increased_scores = students.transform_values { |score| score + 10 }
+
+# c. Calculate the average score of all students using the reduce method.
+average_score = students.values.reduce(0.0) { |total, score| total + score } / students.size
+
+# d. Determine if any student has a score below 70 using enumerable methods.
+any_below_70 = students.any? { |name, score| score < 70 }
+
+# Additional Instructions:
+# Documentation: Include comments that explain the purpose and functionality of each part of your code.
+# Code Clarity: Maintain a well-organized code structure with proper indentation.
+
+# Submission:
+# Compile your Ruby script file and your documentation into a single folder.
+
+# Assessment:
+# Your assignment will be assessed based on your ability to use enumerable methods effectively, as well as the clarity of your documentation.
+
+# Submission:
+# Compile your assignment files (Ruby script file, documentation) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+# This assignment provides hands-on experience with essential enumerable methods in Ruby, enabling you to manipulate and transform data with ease. Enjoy exploring the capabilities of these methods!

@@ -1,0 +1,46 @@
+Basic Ruby Syntax Review
+
+Objective: To reinforce the understanding of basic Ruby syntax and data types.
+
+Task:
+In this assignment, students will review and practice basic Ruby syntax and data types by creating a simple Ruby program. The program will print their name and a greeting to the console, declare variables to store different data types, use conditional statements for decision-making, and create and call functions to perform basic arithmetic operations. This assignment aims to ensure students have a solid grasp of fundamental Ruby concepts.
+
+Instructions:
+
+Name and Greeting:
+
+Instruct students to create a Ruby program that greets the user.
+The program should prompt the user to enter their name and store it in a variable.
+It should then print a greeting message that includes the user's name to the console.
+Encourage students to use the "gets" method for user input and string interpolation for the greeting message.
+Variables:
+
+Ask students to declare and initialize variables to store the following data types:
+An integer (e.g., age)
+A string (e.g., favorite_color)
+A floating-point number (e.g., height)
+Conditional Statements:
+
+Instruct students to use conditional statements (if, else) to implement a simple decision-making process based on the user's age.
+For example, if the user is under 18, the program can print a message about being a minor; otherwise, it can print a message about being an adult.
+Functions (Methods):
+
+Encourage students to create a function (method) that takes two integers as parameters and returns their sum.
+Ask them to call this function, passing the previously declared integer variables as arguments.
+Print the result of the addition.
+User Experience:
+
+Ensure that the program provides clear instructions and a friendly user experience.
+Encourage students to handle user input and errors gracefully, providing appropriate feedback.
+Testing:
+
+Ask students to test the program with different inputs to verify its correctness.
+Ensure that the program functions as expected and produces the desired output.
+Evaluation Criteria:
+
+Correct implementation of the program, including user input, variable declaration, and conditional statements.
+Proper usage of variables to store different data types (integer, string, floating-point number).
+Accurate implementation of conditional statements for decision-making.
+Creation and correct usage of a function (method) for arithmetic operations.
+User-friendly prompts, messages, and error handling.
+Proper testing and verification of the program's functionality.

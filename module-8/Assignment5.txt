@@ -1,0 +1,47 @@
+Comprehensive Testing and Test Suites
+
+Objective: To develop comprehensive test suites for a Rails application.
+
+Task:
+
+In this assignment, students will focus on improving the test coverage of their Ruby on Rails application. They will identify areas with inadequate test coverage and develop comprehensive test suites for models, controllers, and critical application logic. Additionally, they will optimize their test suites for efficiency and evaluate code coverage metrics.
+
+Instructions:
+
+Test Coverage Analysis:
+
+Instruct students to review their existing Ruby on Rails application codebase.
+Task them with identifying areas that lack sufficient test coverage. This could include models, controllers, service objects, and critical application logic.
+Writing Comprehensive Tests:
+
+Assign each student or team specific components or modules of the application that require testing.
+Instruct students to write comprehensive tests for the identified components, including:
+Unit tests for models, controllers, and service objects.
+Integration tests for verifying interactions between different parts of the application.
+Feature tests to ensure that application features work as expected from a user perspective.
+Encourage them to cover both normal and edge cases, including error scenarios.
+Test Optimization:
+
+Guide students in optimizing their test suites for speed and efficiency:
+Implement test doubles (e.g., mocks and stubs) to isolate dependencies and improve test performance.
+Use FactoryBot or fixtures to efficiently create test data.
+Organize tests into appropriate directories and groups.
+Leverage parallel testing (e.g., parallel_tests gem) for faster test execution.
+Code Coverage Evaluation:
+
+Instruct students to use a code coverage tool (e.g., SimpleCov) to measure code coverage.
+Define a minimum code coverage percentage that students must aim to achieve (e.g., 90%).
+Require them to analyze code coverage reports to identify areas that still need testing.
+Documentation:
+
+Ask students to document their testing efforts, including:
+Test coverage reports, highlighting improvements made.
+Any challenges faced during the testing process and how they were overcome.
+The rationale behind test strategies and optimizations.
+Evaluation Criteria:
+
+Comprehensive test suites covering models, controllers, service objects, and application logic.
+Inclusion of tests for both normal and edge cases, including error scenarios.
+Effective use of test doubles and optimization techniques for efficient testing.
+Achievement of the specified code coverage percentage.
+Clear and well-structured documentation of testing efforts.

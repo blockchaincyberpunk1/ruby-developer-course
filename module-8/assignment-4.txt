@@ -1,0 +1,52 @@
+Assignment: Test-Driven Development (TDD) for Implementing a New Feature in a Rails Application
+
+Assignment Overview:
+In this assignment, students will learn the principles of Test-Driven Development (TDD) by implementing a new feature in a Ruby on Rails application. They will follow a structured process of writing tests first, then writing code to make those tests pass, and finally refactoring the code for better quality and maintainability. This approach will help students understand the importance of writing tests and how they can drive the development process.
+
+Instructions:
+
+Step 1: Choose a New Feature
+
+Instruct students to identify a new feature they want to implement in their Rails application. It could be a new functionality, an enhancement to an existing feature, or anything that adds value to the application.
+Step 2: Write Test Cases
+
+Guide students through writing test cases for the new feature they identified. They should create tests that capture the expected behavior and outcomes of the feature.
+
+Emphasize the importance of writing tests that fail initially to ensure that the tests are effectively driving the development process.
+
+Step 3: Implement the Feature
+
+Instruct students to implement the new feature by writing the necessary code in their Rails application. The goal is to make the previously failing tests pass.
+Step 4: Refactor the Code
+
+After the tests pass and the new feature is implemented, guide students through the process of refactoring the code. Discuss how to improve the code's structure, readability, and maintainability.
+
+Encourage students to consider best practices and design patterns while refactoring.
+
+Step 5: Run Tests and Review Code
+
+Instruct students to run their test suite to ensure that the new feature is working as expected and that the existing functionality has not been adversely affected.
+
+Guide them through reviewing their code to ensure it aligns with the Rails coding conventions and best practices.
+
+Step 6: Documentation and Reflection
+
+Ask students to document the TDD process they followed for implementing the new feature. They should explain the steps they took, challenges faced, and lessons learned.
+
+Encourage students to reflect on the benefits of TDD, such as improved code quality, early identification of issues, and better understanding of feature requirements.
+
+Additional Tips:
+
+Red-Green-Refactor: Emphasize the red-green-refactor cycle of TDD: start by writing a failing test (red), make the test pass with the minimal code (green), and then refactor to improve the code (refactor).
+
+Test Coverage: Discuss the importance of achieving high test coverage to ensure that the application is thoroughly tested.
+
+Continuous Integration: Introduce the concept of integrating testing into the development workflow using continuous integration tools.
+
+Assessment:
+Students' submissions will be evaluated based on the completeness of the new feature implementation, the accuracy and thoroughness of the test suite, the quality of code refactoring, the documentation of the TDD process, and the reflection on the benefits of TDD.
+
+Submission:
+Students should submit their Rails application files, test cases, documentation of the TDD process, and reflection materials through the designated platform by [submission deadline].
+
+Through this assignment, students will gain hands-on experience in applying Test-Driven Development principles to real-world scenarios, reinforcing their understanding of writing tests, code implementation, and code refactoring within the context of a Ruby on Rails application.

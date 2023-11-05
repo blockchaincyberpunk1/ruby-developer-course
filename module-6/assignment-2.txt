@@ -1,0 +1,54 @@
+Assignment: Creating a New Ruby on Rails Application - Step by Step
+
+Assignment Overview:
+In this assignment, you will guide students through the step-by-step process of creating a new Ruby on Rails application. The goal is to provide a detailed walkthrough from installing Rails to creating a simple model, view, and controller to demonstrate the Model-View-Controller (MVC) separation in a Rails project.
+
+Instructions:
+
+Step 1: Install Rails
+
+Explain to students how to open the command-line interface on their machines.
+Walk them through the process of installing Rails using the command: gem install rails.
+Instruct them to verify the installation using: rails --version.
+Step 2: Generate a New Rails Application
+
+Guide students through the process of creating a new Rails application using the command: rails new MyApp (replace "MyApp" with the desired application name).
+Discuss various options that can be passed during the creation process, such as choosing a database or skipping specific components.
+Step 3: Navigate the Application Structure
+
+Explain the purpose of each main directory in a Rails application, such as app, config, db, public, and more.
+Emphasize the separation of concerns between different parts of the application.
+Step 4: Create a Simple Model
+
+Demonstrate how to generate a new model using the rails generate model command.
+Walk students through the creation of a simple model, such as a "Post," including specifying attributes.
+Step 5: Migrate the Database
+
+Explain the concept of database migrations and how they're used to manage the database schema.
+Guide students through running the command: rails db:migrate to apply the model's migration and create the corresponding database table.
+Step 6: Generate a Controller and View
+
+Discuss the role of controllers in handling user requests and generating responses.
+Show students how to generate a controller using the rails generate controller command.
+Instruct them to create an action within the controller and generate a corresponding view.
+Step 7: Route the Controller Action
+
+Explain the concept of routing and how it maps incoming requests to controller actions.
+Guide students through adding a route in the config/routes.rb file to link the controller action to a specific URL.
+Step 8: Add Content to the View
+
+Walk students through opening the generated view file and adding HTML content.
+Instruct them to use Ruby tags to display dynamic content from the model.
+Step 9: Test the Application
+
+Show students how to start the development server using the rails server command.
+Instruct them to open a web browser and access the route corresponding to the controller action they defined.
+Additional Instructions:
+
+Documentation: Encourage students to take notes during each step to create a comprehensive guide.
+Troubleshooting: Provide guidance on potential errors or issues they might encounter.
+Submission:
+
+Students should submit their completed step-by-step guide, which includes explanations and notes for each step, through the designated platform by [submission deadline].
+
+This assignment will equip students with a thorough understanding of the process of creating a new Ruby on Rails application and the core components of the Rails framework.

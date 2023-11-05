@@ -1,0 +1,41 @@
+Using Modules and Mixins
+
+Objective: To practice using modules and mixins for code reusability.
+
+Task:
+In this assignment, students will explore the concept of modules and mixins in Ruby. They will create a module named "Discountable" that contains methods for calculating discounts and apply this module to a class called "Product." The goal is to demonstrate how modules can be used to add functionality to Ruby classes, promoting code reusability. Here are the details of the assignment:
+
+Create the "Discountable" Module:
+
+Instruct students to define a Ruby module named "Discountable."
+Within the "Discountable" module, define one or more methods for calculating discounts.
+These methods could accept parameters such as the original price and discount percentage to calculate the final discounted price.
+Encourage students to include comments and documentation to explain the purpose of each method.
+Define the "Product" Class:
+
+Ask students to define a Ruby class named "Product."
+This class represents a product that can have discounts applied to it.
+In the "Product" class definition, use the "include" keyword to mix in the "Discountable" module.
+The inclusion of the module should grant the "Product" class access to the discount calculation methods defined in the module.
+Implement Class Methods:
+
+Within the "Product" class, instruct students to implement class methods that utilize the methods provided by the "Discountable" module.
+For example, they can implement a method to set the product's original price and another method to calculate and return the discounted price.
+Students should ensure that the methods within the class interact correctly with the methods from the module.
+Create Instances and Apply Discounts:
+
+Have students create instances of the "Product" class and set their original prices.
+Demonstrate the application of discounts using the class methods they implemented.
+Encourage them to test various discount scenarios to showcase the flexibility of their code.
+Code Documentation:
+
+Emphasize the importance of adding comments and documentation to their code to explain the purpose of the "Discountable" module, class methods, and instances.
+Encourage students to include explanations for each part of their code.
+Evaluation Criteria:
+
+Correct definition of the "Discountable" module with discount calculation methods.
+Proper inclusion of the "Discountable" module in the "Product" class using the "include" keyword.
+Accurate implementation of class methods within the "Product" class to set prices and calculate discounts.
+Successful creation of instances of the "Product" class and application of discounts.
+Clear code documentation and comments for clarity and understanding.
+Effective demonstration of code reusability through the use of modules and mixins.

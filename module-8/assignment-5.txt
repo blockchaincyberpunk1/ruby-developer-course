@@ -1,0 +1,46 @@
+Assignment: Test-Driven Development (TDD) for Implementing User Authentication in a Rails Application
+
+Assignment Overview:
+In this assignment, students will gain hands-on experience with Test-Driven Development (TDD) by implementing user authentication in a Ruby on Rails application. They will follow the TDD cycle of writing failing tests, implementing code to make the tests pass, and then refactoring the code for better quality and maintainability. Through this assignment, students will understand how TDD helps ensure robust feature development and maintainable code.
+
+Instructions:
+
+Step 1: Setting Up the Rails Application
+
+Instruct students to create a new Ruby on Rails application or use an existing one.
+Step 2: Implementing User Authentication
+
+Choose user authentication as the feature to implement. Explain its importance in securing applications and managing user access.
+
+Guide students through the TDD process to implement user authentication:
+a. Write failing tests that describe the expected behavior of user authentication (e.g., registration, login, logout).
+b. Implement the minimal code necessary to make the tests pass.
+c. Refactor the code to improve its structure, readability, and adherence to Rails conventions.
+
+Step 3: Running Tests and Reviewing Code
+
+Instruct students to run their test suite to ensure that the user authentication feature is working as expected.
+
+Guide them through reviewing their code to ensure it aligns with Rails coding conventions and best practices.
+
+Step 4: Documentation and Reflection
+
+Ask students to document the TDD process they followed for implementing user authentication. They should explain each step, challenges faced, and lessons learned.
+
+Encourage students to reflect on how TDD helped them approach feature development, identify potential issues early, and improve code quality.
+
+Additional Tips:
+
+Test-Driven Development Process: Emphasize the importance of writing tests before implementing the code, and then ensuring those tests pass.
+
+Gem for User Authentication: Introduce popular gems like Devise or Sorcery that provide pre-built user authentication functionality in Rails applications.
+
+Security Considerations: Discuss the importance of securely managing user credentials and the benefits of user authentication.
+
+Assessment:
+Students' submissions will be assessed based on the accuracy and completeness of the user authentication implementation, the quality and thoroughness of the test suite, the effectiveness of code refactoring, the documentation of the TDD process, and the reflection on the benefits of TDD.
+
+Submission:
+Students should submit their Rails application files, test cases, documentation of the TDD process, and reflection materials through the designated platform by [submission deadline].
+
+Through this assignment, students will gain practical experience in applying Test-Driven Development principles to implement a fundamental feature in a Ruby on Rails application. They will learn how TDD promotes better code quality, early issue identification, and a structured approach to feature development.

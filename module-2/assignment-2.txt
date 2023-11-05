@@ -1,0 +1,46 @@
+Assignment: Enhancing Your Ruby Script with Complex Logic
+
+Assignment Overview:
+In this assignment, you will build upon the simple Ruby script you created earlier and enhance it by incorporating more complex logic, conditionals, or loops. The goal is to challenge yourself to create a more sophisticated program using the Ruby programming language.
+
+Instructions:
+
+Step 1: Review Your Previous Script
+Review the simple Ruby script you wrote for the previous activity.
+Identify areas of the script where you can introduce more complex logic, conditionals, or loops.
+
+Step 2: Identifying Enhancements
+Identify specific enhancements you can make to your script to introduce complexity.
+Consider adding nested conditionals, loops, or more intricate arithmetic operations.
+
+Step 3: Choosing Enhancements
+Select at least two enhancements you would like to implement in your script.
+Plan how these enhancements will contribute to creating a more sophisticated program.
+
+Step 4: Implementing Enhancements
+Modify your existing script to incorporate the chosen enhancements.
+Write new code to introduce more complex logic, conditionals, or loops.
+
+Step 5: Testing and Validation
+Test your enhanced script with various inputs to ensure it functions as intended.
+Validate that the added complexity enhances the program's functionality.
+
+Step 6: Documentation and Reflection
+Document the enhancements you made to your script, explaining the purpose and functionality of each addition.
+Reflect on the challenges you faced while enhancing your script and the lessons you learned.
+
+Additional Instructions:
+
+Code Modularity: Ensure your enhancements are structured within functions for better code organization.
+Enhancement Creativity: Challenge yourself to think creatively and introduce complexity that significantly improves the program.
+Code Clarity: Maintain clear and concise code structure with proper indentation and comments.
+Submission:
+Compile your enhanced Ruby script file, updated documentation, and reflection into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+Your assignment will be assessed based on the creativity and complexity of the enhancements, the correctness of your script, and the clarity of your documentation.
+
+Submission:
+Compile your assignment files (enhanced Ruby script file, updated documentation, reflection, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment provides an opportunity for you to extend your Ruby programming skills by incorporating advanced logic, conditionals, or loops. Enjoy the process of enhancing your script and exploring new complexities!

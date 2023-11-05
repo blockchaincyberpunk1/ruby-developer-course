@@ -1,0 +1,48 @@
+Creating Classes and Objects
+
+Objective: To practice creating classes and objects in Ruby.
+
+Task:
+In this assignment, students will gain hands-on experience in defining classes and creating objects in Ruby. The primary goal is to create a "Person" class with specific attributes and methods for displaying information about each person. Here are the details of the assignment:
+
+Define the "Person" Class:
+
+Instruct students to define a Ruby class named "Person."
+The "Person" class should have the following attributes (instance variables):
+name (string)
+age (integer)
+gender (string)
+Provide guidance on defining instance variables and the "initialize" method for object initialization.
+Create Instances (Objects):
+
+Ask students to create multiple instances (objects) of the "Person" class.
+Each instance should represent a different person with unique data (name, age, gender).
+Encourage students to use various names, ages, and genders for the objects they create.
+Implement Methods:
+
+Within the "Person" class, have students implement methods that allow users to retrieve and display information about each person. Suggested methods include:
+"get_name": Returns the person's name.
+"get_age": Returns the person's age.
+"get_gender": Returns the person's gender.
+"display_info": Displays all available information about the person (name, age, gender).
+Object Usage:
+
+Instruct students to demonstrate how to create objects from the "Person" class.
+They should use the objects to set and retrieve attributes, as well as to call the methods implemented in the class.
+Encourage them to print the information retrieved from the objects to the console.
+Test Cases:
+
+Provide a set of test cases to ensure that the "Person" class and its methods are working correctly.
+For example, students can create objects with specific data, call methods to retrieve information, and verify the correctness of the output.
+Code Documentation:
+
+Emphasize the importance of adding comments and documentation to their code to explain the purpose of classes, attributes, and methods.
+Encourage students to include explanations for each part of their code.
+Evaluation Criteria:
+
+Correct definition of the "Person" class with the specified attributes (name, age, gender).
+Accurate implementation of methods within the "Person" class for attribute retrieval and information display.
+Creation of multiple instances (objects) of the "Person" class with unique data.
+Demonstrated ability to use objects to set and retrieve attributes and call methods.
+Proper documentation and comments in the code for clarity and understanding.
+Successful execution of test cases to validate the correctness of the class and methods.

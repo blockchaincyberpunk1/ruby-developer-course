@@ -1,0 +1,38 @@
+Ruby Community Engagement
+
+Objective: To encourage students to actively participate in the Ruby community.
+
+Task:
+
+In this assignment, students will have the opportunity to engage with the Ruby community, share their knowledge, and learn from others. Active participation in the community forums, mailing lists, or social platforms fosters a sense of belonging and keeps students updated on the latest developments in Ruby.
+
+Instructions:
+
+Join a Ruby Community Platform:
+
+Instruct students to choose a Ruby community forum, mailing list, or social platform where Ruby developers gather to discuss various topics related to Ruby programming, best practices, and development challenges.
+Select a Relevant Discussion:
+
+Encourage students to explore the chosen platform and find a discussion thread or topic that aligns with their interests, experience, or questions they might have about Ruby development.
+Engage in the Conversation:
+
+Task students with actively participating in the selected discussion. They can contribute in the following ways:
+Share insights or experiences related to the topic.
+Ask thoughtful questions or seek advice from more experienced community members.
+Offer assistance or solutions to challenges raised by others.
+Engage in constructive and respectful dialogue with fellow community members.
+Reflective Report:
+
+Ask students to write a reflective report summarizing their community engagement experience. The report should include:
+A brief description of the chosen community platform and the selected discussion.
+Details of their contributions to the discussion (e.g., posts, comments, questions).
+Key takeaways, lessons learned, or new insights gained from engaging with the Ruby community.
+Any challenges faced during the engagement and how they were addressed.
+Plans for continued participation in the community.
+Evaluation Criteria:
+
+Active and meaningful participation in a relevant Ruby community discussion.
+Demonstrated engagement through insightful contributions, questions, or assistance.
+Respectful and constructive interactions with fellow community members.
+A well-structured reflective report that summarizes the experience and key takeaways.
+Evidence of a plan for ongoing engagement with the Ruby community.

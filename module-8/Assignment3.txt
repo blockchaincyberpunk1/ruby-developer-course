@@ -1,0 +1,46 @@
+Introduction to Testing with RSpec
+
+Objective: To introduce students to testing frameworks in Ruby, specifically RSpec.
+
+Task:
+
+In this assignment, students will explore testing in Ruby by getting hands-on experience with RSpec, a popular testing framework. They will learn how to write and run unit tests for critical components of a Ruby on Rails application, ensuring code quality and reliability.
+
+Instructions:
+
+Set Up a Ruby on Rails Project:
+
+Students should either create a new Ruby on Rails application or use their existing project.
+Ensure they have a basic understanding of the application's structure, including models and controllers.
+Install and Configure RSpec:
+
+Guide students through the process of installing RSpec as a testing framework for their project.
+Explain how to configure RSpec in the project's settings.
+Writing Unit Tests:
+
+Instruct students to identify critical components in their application, such as models and controllers, that need testing.
+Teach them the syntax for writing RSpec tests, including writing context blocks and test cases (describe, context, it).
+Task students with writing unit tests for these components, covering various scenarios, edge cases, and validations.
+Running Tests Locally:
+
+Ensure students understand how to run RSpec tests locally using commands like bundle exec rspec.
+Continuous Integration (CI) Setup:
+
+Introduce students to the concept of CI and its benefits in automated testing.
+Instruct them to set up a CI pipeline using a CI service of their choice, such as Travis CI or GitHub Actions.
+Configure the CI pipeline to run RSpec tests automatically whenever code changes are pushed to the repository.
+Monitoring CI Results:
+
+Encourage students to monitor their CI pipeline's results, including test successes and failures.
+Teach them how to interpret CI reports and troubleshoot test failures.
+Documentation:
+
+Require students to document their testing process, including the purpose of each test, any special considerations, and how to run the tests locally.
+Emphasize the importance of clear documentation for future developers.
+Evaluation Criteria:
+
+Successful installation and configuration of RSpec in the Rails project.
+Comprehensive unit tests written for critical components, covering different scenarios.
+CI pipeline set up and configured to run RSpec tests automatically.
+Effective monitoring and troubleshooting of test results.
+Clear and well-structured documentation of the testing process.

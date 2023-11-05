@@ -1,0 +1,43 @@
+Building a Blogging Platform (Optional)
+
+Objective: To challenge students with a more complex project that applies advanced Ruby concepts.
+
+Task:
+In this optional assignment, students will have the opportunity to design and build a simple blogging platform using Ruby classes. The goal is to apply the knowledge gained throughout the course and tackle a more complex project. The assignment encourages students to create classes for User, BlogPost, and Comment, establishing relationships between them, and implementing various features of a blogging platform. Additionally, they should utilize inheritance and modules to enhance code structure and reusability.
+
+Here are the details of the assignment:
+
+Define Classes:
+
+Instruct students to define the following classes:
+User: Represents a user of the blogging platform. Users should have attributes like username, email, and password. Implement methods for user registration, login, and profile management.
+BlogPost: Represents a blog post with attributes like title, content, publication date, and author (a User object). Implement methods for creating, editing, and deleting blog posts.
+Comment: Represents a comment on a blog post with attributes like content, publication date, and author (a User object). Implement methods for adding and managing comments on blog posts.
+Relationships and Data Structures:
+
+Establish relationships between the User, BlogPost, and Comment classes. For example, a User can have many BlogPosts, and a BlogPost can have many Comments.
+Implement data structures to manage these relationships, such as arrays or hashes.
+Features and Functionality:
+
+Encourage students to create a menu system or user interface (command-line or web-based) that allows users to perform actions like user registration, login, creating blog posts, adding comments, and viewing posts.
+Implement user authentication and authorization to ensure that only authorized users can edit or delete their posts and comments.
+Apply concepts of data validation and error handling.
+Code Organization:
+
+Challenge students to use inheritance or modules to promote code reuse and maintainability. For example, they can create a Module for authentication methods that can be included in both the User and BlogPost classes.
+Testing (Optional):
+
+If students are comfortable with testing frameworks, encourage them to write tests for their classes and methods using tools like RSpec or MiniTest.
+Documentation:
+
+Emphasize the importance of clear code documentation and comments to explain the purpose and functionality of their classes and methods.
+Evaluation Criteria:
+
+Correct definition and implementation of the User, BlogPost, and Comment classes.
+Proper establishment of relationships between classes and data structures.
+Successful implementation of user registration, login, and blogging features.
+Effective use of inheritance or modules to enhance code structure and reusability.
+Implementation of user authentication and authorization mechanisms.
+Appropriate use of data validation and error handling.
+Optional testing (if implemented) and documentation for clarity and understanding.
+User-friendly interface or menu system for interacting with the blogging platform.

@@ -1,0 +1,46 @@
+Building a RESTful API
+
+Objective: To understand and practice creating RESTful APIs using Ruby on Rails.
+
+Task:
+
+In this assignment, students will extend their existing Task Management App by adding a RESTful API. They will implement API endpoints for tasks, secure the API with token-based authentication, and provide comprehensive API documentation.
+
+Instructions:
+
+Extend the Application:
+
+Instruct students to extend their Task Management App by adding API functionality alongside the web interface.
+API Endpoints:
+
+Define the following RESTful API endpoints:
+GET /api/tasks: Retrieve a list of tasks.
+GET /api/tasks/:id: Retrieve a specific task by ID.
+POST /api/tasks: Create a new task.
+PUT /api/tasks/:id: Update an existing task.
+DELETE /api/tasks/:id: Delete a task.
+Ensure that the API adheres to RESTful principles, using appropriate HTTP methods and status codes.
+Token-Based Authentication:
+
+Implement token-based authentication for API access.
+Suggest using the Devise Token Auth gem or a similar authentication solution.
+Require students to generate tokens for users and secure API endpoints to only allow authenticated access.
+API Documentation:
+
+Guide students in creating comprehensive API documentation using tools like Swagger, Postman, or built-in Rails documentation.
+Include details on available endpoints, request/response formats, authentication requirements, and example API requests.
+Testing:
+
+Encourage students to test the API endpoints using API testing tools (e.g., Postman, Curl) to ensure they function correctly.
+Submission:
+
+Instruct students to submit the following for evaluation:
+A link to the API documentation.
+Demonstration of successful API testing with examples.
+Evaluation Criteria:
+
+Successful implementation of RESTful API endpoints for task management.
+Proper token-based authentication to secure API endpoints.
+Well-documented API with clear instructions for usage.
+Effective testing of API endpoints to ensure functionality.
+Adherence to RESTful principles and conventions.

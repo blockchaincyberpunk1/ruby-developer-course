@@ -1,0 +1,53 @@
+Adding Advanced Features (Part 1) - Notifications
+
+Objective: To challenge students to implement advanced features in a Rails application.
+
+Task:
+
+In this assignment, students will enhance their Task Management App created in previous assignments by adding a notifications feature. The goal is to provide users with reminders for upcoming due dates on their tasks.
+
+Instructions:
+
+Project Setup:
+
+Instruct students to continue working on their existing Task Management App project.
+Notifications Feature:
+
+Explain the concept of notifications and the benefits of providing reminders to users.
+Task Due Dates:
+
+Introduce the concept of due dates for tasks.
+Modify the "Task" model to include a due date attribute.
+Notification Preferences:
+
+Implement a feature that allows users to customize their notification preferences. For example, they can choose to receive notifications via email or in-app notifications.
+Notification Logic:
+
+Develop the logic for triggering notifications based on task due dates.
+Decide when and how notifications should be sent (e.g., daily email reminders for tasks due within the next 24 hours).
+Implementation Options:
+
+Students can implement notifications using various approaches:
+Email notifications: Utilize a gem like "Action Mailer" to send email reminders.
+In-app notifications: Implement in-app notifications using libraries or custom code.
+User Interface:
+
+Modify the user interface to display due dates and notification settings.
+Allow users to set due dates when creating or editing tasks.
+Testing:
+
+Encourage students to thoroughly test the notifications feature to ensure it works as expected.
+Test different scenarios, such as tasks with due dates in the past, notifications preferences, and notification delivery.
+Documentation:
+
+Update the README.md file to include instructions for using the notifications feature.
+Include information on setting due dates and customizing notification preferences.
+Evaluation Criteria:
+
+Successful implementation of task due dates in the Task model.
+Implementation of notification preferences with user customization.
+Proper logic for triggering notifications based on due dates.
+Implementation of notifications through email or in-app notifications (students can choose one or both methods).
+Modification of the user interface to support due dates and notification settings.
+Thorough testing of the notifications feature with different scenarios.
+Updated documentation that provides clear instructions for using the notifications feature.

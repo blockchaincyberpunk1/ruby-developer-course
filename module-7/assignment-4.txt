@@ -1,0 +1,61 @@
+Assignment: Data Querying with ActiveRecord in a Rails Application
+
+Assignment Overview:
+In this assignment, students will create a Rails application to practice data querying using ActiveRecord, the ORM (Object-Relational Mapping) library in Ruby on Rails. They will create multiple database tables and write queries to retrieve specific data from those tables. This assignment will help students become proficient in querying databases and working with ActiveRecord in a real-world scenario.
+
+Instructions:
+
+Step 1: Set Up the Rails Application
+
+Instruct students to create a new Rails application using the rails new command.
+
+Guide them through generating the necessary models and migrations for the database tables they'll create.
+
+Step 2: Create Database Tables
+
+Explain the concept of database tables and their relationships.
+
+Instruct students to create at least two database tables with appropriate attributes. For example, they can create a User table and a Post table with a one-to-many relationship.
+
+Step 3: Implement Data Seeding
+
+Guide students through adding seed data to populate the database tables with sample records.
+Step 4: Write Queries using ActiveRecord
+
+Instruct students to open Rails console using the rails console command.
+
+Provide a list of querying tasks, such as:
+
+Retrieve all users from the User table.
+Retrieve a user's posts using associations.
+Retrieve posts created within a specific date range.
+Count the number of posts for each user.
+Find users who have more than a certain number of posts.
+Lead students through writing and executing ActiveRecord queries to accomplish these tasks.
+
+Step 5: Display Query Results
+
+Guide students through displaying the query results in the Rails console.
+Step 6: Implement Querying in Controllers
+
+Instruct students to create a controller and corresponding views to demonstrate data querying in a web application.
+
+Guide them through writing controller actions that perform ActiveRecord queries and pass the results to the views.
+
+Step 7: Display Query Results in Views
+
+Explain how to display the results of ActiveRecord queries in the views using HTML and ERB (Embedded Ruby).
+Step 8: Test and Debug
+
+Encourage students to thoroughly test their queries and view displays to ensure everything is functioning correctly.
+Additional Instructions:
+
+Associations: Remind students to establish associations between models and utilize them in their queries.
+Validation: Encourage students to implement necessary validation checks in their models to ensure data integrity.
+Assessment:
+Students' Rails applications will be assessed based on the successful implementation of database tables, writing accurate ActiveRecord queries, and displaying query results in views. Code quality, organization, and documentation will also be considered.
+
+Submission:
+Students should submit their completed Rails application files, including models, migrations, controllers, views, and any other relevant files, through the designated platform by [submission deadline].
+
+By completing this assignment, students will have gained valuable experience in querying databases using ActiveRecord and will be better equipped to work with databases in Ruby on Rails applications.

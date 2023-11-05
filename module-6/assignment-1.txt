@@ -1,0 +1,94 @@
+Assignment: Creating a New Ruby on Rails Application
+
+Assignment Overview:
+In this assignment, you will guide students through the process of creating a new Ruby on Rails application from scratch. This exercise will help students understand the initial setup, installation, and generation of a basic application structure using the Ruby on Rails framework.
+
+Instructions:
+
+Step 1: Install Ruby and Rails
+
+Provide students with instructions to install Ruby and Rails on their local machines if they haven't already.
+Explain how to use the command-line interface to check the installed versions of Ruby and Rails.
+
+bash
+Copy code
+# Check Ruby version
+ruby -v
+
+# Check Rails version
+rails -v
+Step 2: Create a New Rails Application
+
+Walk students through the process of creating a new Rails application using the rails new command.
+Explain the various options that can be passed to the command, such as specifying the database type or skipping unnecessary files.
+
+bash
+Copy code
+# Create a new Rails application named 'myapp'
+rails new myapp
+
+# Options:
+# -d specifies the database type (e.g., -d postgresql)
+# --skip-bundle skips running bundle install
+# --skip-test skips generating test files
+Step 3: Navigate the Application Structure
+
+Guide students through navigating the application's directory structure, highlighting key directories and files.
+Explain the purpose of each directory, such as app, config, db, and public.
+
+text
+Copy code
+myapp/
+  ├── app/           # Application code
+  ├── config/        # Configuration files
+  ├── db/            # Database-related files and migrations
+  ├── public/        # Public assets (images, stylesheets, JavaScript)
+  └── ...
+Step 4: Run the Development Server
+
+Show students how to use the rails server command to start the development server.
+Instruct them to open a web browser and access the application at http://localhost:3000.
+
+bash
+Copy code
+# Start the development server
+rails server
+
+# Access the application in a web browser: http://localhost:3000
+Step 5: Explore the Default Page
+
+Explain how Rails automatically generates a welcome page for new applications.
+Instruct students to explore the default welcome page and its associated controller and view.
+
+Step 6: Generate a Scaffold
+
+Demonstrate how to generate a scaffold, which creates a full set of CRUD (Create, Read, Update, Delete) actions for a resource.
+Guide students through generating a scaffold for a simple model, such as Post.
+
+bash
+Copy code
+# Generate a scaffold for 'Post' model
+rails generate scaffold Post title:string content:text
+Step 7: Migrate the Database
+
+Explain how to use database migrations to create or modify database tables.
+Instruct students to run rails db:migrate to apply the migrations and create the necessary database tables.
+
+bash
+Copy code
+# Run database migrations
+rails db:migrate
+Step 8: Test the Scaffold
+
+Show students how to navigate to the scaffold's index page, create new records, and view individual records.
+Instruct them to experiment with editing and deleting records as well.
+
+Additional Instructions:
+
+Documentation: Encourage students to take notes during each step of the process.
+Troubleshooting: Provide guidance on common issues students might encounter and how to resolve them.
+Submission:
+
+Students should submit their documentation, including notes on each step, observations, and any issues encountered, through the designated platform by [submission deadline].
+
+This assignment will provide students with hands-on experience in creating a new Ruby on Rails application and exploring its basic structure. It's a fundamental skill for web development using the Rails framework.

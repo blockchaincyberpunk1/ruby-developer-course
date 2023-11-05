@@ -1,0 +1,86 @@
+Dynamic Class Creation
+
+Objective: To explore metaprogramming and dynamic class creation in Ruby.
+
+Task:
+
+In this assignment, students will delve into metaprogramming and dynamic class creation. They will create a program that generates Ruby classes dynamically based on user input or data. This assignment aims to reinforce their understanding of metaprogramming concepts and how to create classes and methods on the fly.
+
+Instructions:
+
+User Input or Data:
+
+Instruct students to create a mechanism for user input or data import. This input or data will determine the structure and behavior of the dynamically generated classes.
+Dynamic Class Creation:
+
+Explain to students that they need to write Ruby code that generates classes dynamically based on the input or data.
+Use metaprogramming techniques to define class methods, instance methods, and attributes for each generated class. The structure and methods should align with the requirements specified by the input or data.
+Instantiation and Utilization:
+
+Students should demonstrate how to instantiate objects from the dynamically generated classes.
+Show examples of how to use the generated classes and their methods in practical scenarios.
+Flexibility and Reusability:
+
+Emphasize the importance of creating a flexible and reusable solution. Students should consider how their code can adapt to different input or data scenarios without major modifications.
+Commenting and Documentation:
+
+Encourage students to include comments and documentation in their code to explain how they achieved dynamic class creation and metaprogramming.
+Example:
+
+
+# Sample data for dynamic class creation
+class_data = [
+  {
+    class_name: "Person",
+    attributes: [:name, :age],
+    methods: {
+      initialize: "def initialize(name, age)\n@name = name\n@age = age\nend",
+      greet: "def greet\nputs 'Hello, I am #{@name} and I am #{@age} years old.'\nend"
+    }
+  },
+  {
+    class_name: "Product",
+    attributes: [:name, :price],
+    methods: {
+      initialize: "def initialize(name, price)\n@name = name\n@price = price\nend",
+      display_info: "def display_info\nputs 'Product: #{@name}, Price: #{@price}'\nend"
+    }
+  }
+]
+
+# Dynamic class creation
+class_data.each do |class_info|
+  class_name = class_info[:class_name]
+  attributes = class_info[:attributes]
+  methods = class_info[:methods]
+
+  # Define the class dynamically
+  new_class = Class.new do
+    attr_accessor *attributes
+
+    # Define class methods dynamically
+    methods.each do |method_name, method_code|
+      define_method(method_name) do
+        eval(method_code)
+      end
+    end
+  end
+
+  # Assign the newly created class to a constant with the class name
+  Object.const_set(class_name, new_class)
+end
+
+# Demonstrate dynamic classes and methods
+person = Person.new("Alice", 30)
+person.greet
+
+product = Product.new("Laptop", 1000)
+product.display_info
+
+
+Evaluation Criteria:
+
+Correct implementation of dynamic class creation using metaprogramming techniques.
+Effective demonstration of how dynamically generated classes can be instantiated and utilized.
+Flexibility and reusability of the solution for different input or data scenarios.
+Clear and organized code with comments explaining the metaprogramming approach.

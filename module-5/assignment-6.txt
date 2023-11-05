@@ -1,0 +1,40 @@
+Assignment: Robust Exception Handling in Existing Ruby Code
+
+Assignment Overview:
+In this assignment, you will revisit your existing Ruby code and implement robust exception handling to handle potential error scenarios gracefully. By enhancing your code with proper exception handling, you will ensure that your programs can handle unexpected situations without crashing or producing cryptic error messages.
+
+Instructions:
+
+Step 1: Code Review and Identification
+
+Review the Ruby code you have previously written, whether it's a small script, function, or application.
+Identify areas in your code where potential errors or exceptions could occur. These might include file operations, user input, data manipulation, and external dependencies.
+
+Step 2: Implement Robust Exception Handling
+
+For each identified area of potential error, implement begin and rescue blocks to handle exceptions appropriately.
+Use specific exception classes to target the type of error you anticipate. For instance, use Errno::ENOENT for file not found errors, ZeroDivisionError for division by zero, and so on.
+Within the rescue block, provide a user-friendly error message or an appropriate course of action to take when an exception occurs.
+
+Step 3: Test and Refine
+
+Test your enhanced code with various inputs and scenarios to ensure that exceptions are caught and handled as expected.
+If you encounter any unexpected behavior, refine your exception handling logic and test again.
+
+Additional Instructions:
+
+Documentation: Include comments in your code to explain where and why you implemented exception handling.
+Code Clarity: Maintain a clear and organized code structure with proper indentation.
+Submission:
+
+Compile your updated Ruby script files and documentation into a single folder.
+
+Assessment:
+
+Your assignment will be assessed based on the effectiveness of your exception handling implementation and the clarity of your documentation.
+
+Submission:
+
+Compile your assignment files (updated Ruby script files, documentation) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment will provide you with practical experience in enhancing the robustness of your existing Ruby code through effective exception handling. It's an important skill to ensure the reliability of your programs in real-world scenarios.

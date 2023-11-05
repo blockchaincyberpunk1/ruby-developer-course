@@ -1,0 +1,56 @@
+Assignment: Data Querying with ActiveRecord in a Rails Application
+
+Assignment Overview:
+In this assignment, students will engage in a hands-on activity to create a Rails application that demonstrates data querying using ActiveRecord. They will set up a new Rails application, create database tables using migrations, and write ActiveRecord queries to retrieve specific data from those tables. This assignment will provide students with practical experience in working with ActiveRecord to interact with databases and retrieve meaningful data.
+
+Instructions:
+
+Step 1: Set Up the Rails Application
+
+Guide students through creating a new Rails application using the rails new command.
+
+Instruct them to navigate to the application directory using the terminal.
+
+Step 2: Create Database Tables Using Migrations
+
+Explain the concept of migrations and their role in creating and modifying database tables.
+
+Instruct students to generate migrations to create at least two database tables. For example, they can create a Product table and a Category table with appropriate attributes.
+
+Guide them through running the migrations using the rails db:migrate command to create the tables in the database.
+
+Step 3: Implement Data Seeding
+
+Instruct students to create seed data to populate the database tables with sample records.
+
+Explain how to use the db/seeds.rb file to insert data into the tables using the rails db:seed command.
+
+Step 4: Write ActiveRecord Queries
+
+Provide students with a list of querying tasks, such as:
+
+Retrieve all products from the Product table.
+Retrieve products with a specific category.
+Calculate the average price of products.
+Retrieve products with a price greater than a specified value.
+Lead students through writing and executing ActiveRecord queries to accomplish these tasks. They can do this by opening the Rails console using the rails console command and entering their queries.
+
+Step 5: Display Query Results
+
+Instruct students to open Rails console using the rails console command.
+
+Guide them through displaying the results of their ActiveRecord queries in the console.
+
+Additional Instructions:
+
+Associations: Remind students to establish associations between models if necessary and utilize them in their queries. For instance, if a Product belongs to a Category, they can use associations to retrieve products with a specific category more efficiently.
+
+Validation: Encourage students to implement necessary validation checks in their models to ensure data integrity. For example, validating the presence of certain attributes or enforcing numerical constraints on price values.
+
+Assessment:
+Students' Rails applications will be assessed based on the successful creation of database tables, accurate writing of ActiveRecord queries, and proper display of query results. Code quality, organization, and documentation will also be considered.
+
+Submission:
+Students should submit their completed Rails application files, including models, migrations, seeds, and any other relevant files, through the designated platform by [submission deadline].
+
+By completing this assignment, students will have gained hands-on experience in creating a Rails application, setting up database tables, and using ActiveRecord to query and retrieve data.

@@ -1,0 +1,51 @@
+Database Integration and Migrations
+
+Objective: To deepen understanding of database integration and migrations in Rails.
+
+Task:
+
+In this assignment, students will continue building on the Task Management App created in Assignment 1. They will enhance their knowledge of database integration and migrations in Ruby on Rails by adding a new model, defining associations, and creating appropriate database migrations.
+
+Instructions:
+
+Project Setup:
+
+Instruct students to continue working on their existing Task Management App project.
+Project Model:
+
+Introduce the concept of a "Project" model, which will represent a collection of related tasks.
+Define attributes for the Project model (e.g., title, description, start date, end date).
+Database Migration:
+
+Generate a new database migration to create the "projects" table using the rails generate migration command.
+Define Associations:
+
+Explain the concept of associations in Rails, such as "has_many" and "belongs_to."
+Define the association between tasks and projects, indicating that a task belongs to a project.
+Database Migrations for Associations:
+
+Instruct students to create database migrations to add foreign keys and relationships between tasks and projects.
+For example, a task should have a foreign key column that references the associated project.
+Data Seeding (Optional):
+
+Optionally, students can implement a data seeding process to populate the database with sample tasks and projects.
+Views and Controllers:
+
+Modify the views and controllers to accommodate the new Project model and its associations.
+Update the task creation form to allow users to associate tasks with specific projects.
+Testing (Optional):
+
+While testing is optional for this assignment, you can introduce the basics of testing associations and database relationships.
+Documentation:
+
+Require students to update their README.md file with instructions on how to set up and run the updated Task Management App, including the new Project features.
+Evaluation Criteria:
+
+Successful creation of the Project model with the specified attributes.
+Generation of a database migration to create the "projects" table.
+Proper definition of associations between tasks and projects.
+Implementation of database migrations for adding foreign keys.
+Modification of views and controllers to support the new Project model and associations.
+Optional: Data seeding (if implemented).
+Optional: Testing of associations and relationships (if implemented).
+Updated documentation that provides clear instructions for running the updated Task Management App.

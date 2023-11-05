@@ -1,0 +1,116 @@
+Assignment: Exploring Metaprogramming Techniques in Ruby
+
+Assignment Overview:
+In this assignment, you will delve into the fascinating world of metaprogramming in Ruby. Metaprogramming allows you to write code that generates code, creating dynamic and flexible programs. You will engage in hands-on activities to experiment with metaprogramming techniques, including dynamically creating methods, modifying classes, and extending functionality.
+
+Instructions:
+
+Part 1: Dynamically Creating Methods
+
+Step 1: Define a class named Calculator with two instance variables: @x and @y.
+
+ruby
+Copy code
+class Calculator
+  attr_accessor :x, :y
+
+  def initialize(x, y)
+    @x = x
+    @y = y
+  end
+end
+Step 2: Implement metaprogramming techniques to dynamically create methods for addition, subtraction, multiplication, and division operations.
+
+ruby
+Copy code
+class Calculator
+  # ... (previous code)
+
+  %w(add subtract multiply divide).each do |operation|
+    define_method(operation) do
+      instance_variable_get("@x").send(operation, instance_variable_get("@y"))
+    end
+  end
+end
+Step 3: Create an instance of the Calculator class and test the dynamically created methods for various operations.
+
+ruby
+Copy code
+calculator = Calculator.new(10, 5)
+puts calculator.add   # Output: 15
+puts calculator.subtract   # Output: 5
+puts calculator.multiply   # Output: 50
+puts calculator.divide   # Output: 2
+Part 2: Modifying Class Behavior
+
+Step 1: Define a class named Person with an instance variable @name.
+
+ruby
+Copy code
+class Person
+  attr_accessor :name
+end
+Step 2: Implement metaprogramming techniques to modify the behavior of the initialize method to set the @name variable when creating an instance of the class.
+
+ruby
+Copy code
+class Person
+  # ... (previous code)
+
+  def self.inherited(subclass)
+    subclass.class_eval do
+      def initialize(name)
+        @name = name
+      end
+    end
+  end
+end
+Step 3: Create an instance of the Person class without explicitly passing the name argument and ensure that the @name variable is set correctly.
+
+ruby
+Copy code
+person = Person.new("Alice")
+puts person.name   # Output: Alice
+Part 3: Extending Functionality with Modules
+
+Step 1: Define a module named Debuggable with a method debug that prints debug information.
+
+ruby
+Copy code
+module Debuggable
+  def debug
+    puts "#{self.class} - Debug Information"
+  end
+end
+Step 2: Use metaprogramming techniques to dynamically include the Debuggable module in the Calculator class.
+
+ruby
+Copy code
+class Calculator
+  include Debuggable
+
+  # ... (previous code)
+end
+Step 3: Create an instance of the modified Calculator class and call the debug method.
+
+ruby
+Copy code
+calculator = Calculator.new(0, 0)
+calculator.debug   # Output: Calculator - Debug Information
+Additional Instructions:
+
+Documentation: Include comments that explain the purpose and functionality of each part of your code.
+Code Clarity: Maintain a well-organized code structure with proper indentation.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder.
+
+Assessment:
+
+Your assignment will be assessed based on your ability to apply metaprogramming techniques to dynamically create methods, modify class behavior, and extend functionality, as well as the clarity of your documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment offers a hands-on experience in utilizing metaprogramming techniques to create flexible and dynamic code in Ruby. Enjoy exploring the power of metaprogramming!

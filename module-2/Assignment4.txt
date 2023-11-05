@@ -1,0 +1,44 @@
+Arrays and Hashes in Ruby
+
+Objective: To practice working with arrays and hashes in Ruby.
+
+Task:
+In this assignment, students will gain hands-on experience with arrays and hashes in Ruby. They will create a Ruby program that uses arrays and hashes to organize and retrieve data. The assignment will involve tasks related to array manipulation, sorting, filtering, and hash operations. Here are the details of the assignment:
+
+Arrays:
+
+Instruct students to declare and initialize arrays to store lists of various data types (e.g., integers, strings, floats).
+Encourage them to create arrays with meaningful content, such as a list of student names, scores, or product prices.
+Task students with performing the following array operations:
+Sorting: Sort an array in ascending and descending order.
+Filtering: Create a new array by filtering elements based on specific criteria (e.g., selecting all even numbers or names starting with a certain letter).
+Mapping: Apply a transformation to each element in the array and store the results in a new array (e.g., converting temperatures from Celsius to Fahrenheit).
+Hashes:
+
+Introduce the concept of hashes (key-value pairs) to students.
+Instruct them to create hashes to represent various entities (e.g., a dictionary of words and their meanings, a customer database with names and contact information).
+Ask students to perform hash operations, including:
+Accessing values: Retrieve values from a hash based on keys.
+Adding key-value pairs: Add new entries to an existing hash.
+Updating values: Modify the values associated with specific keys.
+Deleting key-value pairs: Remove entries from the hash.
+Data Organization Program:
+
+Assign students the task of creating a Ruby program that organizes and retrieves data using arrays and hashes.
+Define a practical problem or scenario that requires the use of arrays and hashes. For example, they can create a program to manage a library catalog (with books and their details) or track inventory for a store.
+Implement functions (methods) to perform tasks like adding, updating, and querying data in the program.
+Design a user-friendly command-line interface that allows users to interact with the data.
+Testing:
+
+Encourage students to thoroughly test their program with different data scenarios to ensure that array and hash operations work correctly.
+Verify that the program handles common tasks such as searching for items, updating information, and displaying organized data.
+Evaluation Criteria:
+
+Correct use of arrays for storing and manipulating lists of data.
+Proper implementation of array operations (sorting, filtering, mapping).
+Effective use of hashes to represent key-value pairs.
+Successful implementation of hash operations (accessing, adding, updating, deleting entries).
+Creation of a Ruby program that solves a practical problem using arrays and hashes.
+User-friendly command-line interface for interacting with data.
+Accurate and reliable data organization and retrieval within the program.
+Adequate testing to ensure program functionality.

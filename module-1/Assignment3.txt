@@ -1,0 +1,49 @@
+Data Types and Arrays
+
+Objective: To practice working with data types and arrays in Ruby.
+
+Task:
+In this assignment, students will gain hands-on experience with data types and arrays in Ruby. They will work with arrays to perform various operations, calculate statistics, and explore other data structures like hashes.
+
+Instructions:
+
+Array Operations:
+
+Declare and initialize arrays to store lists of integers, strings, or other data types.
+Implement array operations such as:
+Sorting the elements in an array (ascending or descending order).
+Filtering the array to select specific elements that meet certain criteria (e.g., even numbers, strings containing a certain character).
+Searching for the presence of an element within the array.
+Adding and removing elements from the array.
+Array Statistics:
+
+Write a Ruby program that operates on an array of numbers (integers or floats).
+Create functions to calculate the following statistics:
+Average (mean) of the elements in the array.
+Sum of all elements in the array.
+Product of all elements in the array.
+Test your functions with different arrays to ensure they produce accurate results.
+Hash Exploration:
+
+Introduce students to the concept of hashes (associative arrays) in Ruby.
+Declare and initialize hashes to store key-value pairs.
+Demonstrate the use of hashes in real-world scenarios (e.g., creating a simple dictionary, storing contact information).
+Implement operations to add, update, and delete key-value pairs in hashes.
+Interactive Program:
+
+Modify your program to be interactive, allowing the user to choose which task (array operations, array statistics, or hash exploration) they want to perform.
+Based on the user's choice, take appropriate inputs and display results.
+Documentation:
+
+Include comments and documentation in your code to explain each section of the program and the purpose of functions/methods.
+Testing:
+
+Test your program with various arrays and hashes to ensure it produces correct results for all tasks.
+Evaluation Criteria:
+
+Accurate implementation of array operations (sorting, filtering, searching).
+Correct calculation of average, sum, and product of array elements.
+Proper use of hashes to store and manipulate key-value pairs.
+User-friendly interactive interface for task selection.
+Clarity and completeness of code comments and documentation.
+Thorough testing to ensure program functionality.

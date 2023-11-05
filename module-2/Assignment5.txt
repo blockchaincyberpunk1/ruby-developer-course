@@ -1,0 +1,56 @@
+Modular Programming in Ruby
+
+Objective: To emphasize the importance of modular programming in Ruby.
+
+Task:
+In this assignment, students will practice modular programming in Ruby by creating a program that models a simple e-commerce system. The assignment will require them to design and implement separate modules for managing products, users, and orders within the system. The primary goal is to emphasize the benefits of code organization, reusability, and maintainability through modular design. Here are the details of the assignment:
+
+Modular Program Structure:
+
+Instruct students to design a modular Ruby program that simulates an e-commerce system.
+Divide the program into three main modules: Products, Users, and Orders.
+Each module should encapsulate the logic and functionality related to its respective domain.
+Explain the concept of module inclusion and how it allows functions and classes defined in one module to be used in another.
+Module for Products:
+
+Ask students to create a "Products" module that handles product-related operations.
+Within this module, they should define functions/methods to:
+Add new products to the system.
+Retrieve product details by ID.
+List all available products.
+Implement any other relevant product-related functions.
+Module for Users:
+
+Have students create a "Users" module responsible for user management.
+This module should include functions/methods for:
+Registering new users.
+Authenticating users (e.g., by username and password).
+Retrieving user information.
+Managing user accounts (e.g., updating contact details).
+Module for Orders:
+
+Assign students the task of creating an "Orders" module for order processing.
+Within this module, they should implement functions/methods to:
+Place new orders.
+Retrieve order details by order ID.
+Generate order invoices.
+Track order status and history.
+Program Interaction:
+
+Instruct students to create a command-line interface (CLI) that allows users to interact with the e-commerce system.
+Users should be able to perform actions like adding products to their cart, placing orders, and viewing their order history.
+Encourage the use of the "gets" method to receive user input and display relevant information.
+Code Reusability and Maintainability:
+
+Emphasize the importance of code reusability by having students reuse functions/methods defined in the modules whenever possible.
+Encourage proper error handling and modular design practices.
+Advise students to consider potential future enhancements to the system and how modular code can simplify future updates.
+Evaluation Criteria:
+
+Proper organization of the Ruby program into separate modules for Products, Users, and Orders.
+Correct implementation of functions/methods within each module to handle domain-specific operations.
+Effective use of module inclusion and namespacing to access functions/methods from different modules.
+Creation of a user-friendly command-line interface (CLI) for interacting with the e-commerce system.
+Demonstrated code reusability by utilizing functions/methods from the modules in different parts of the program.
+Adequate error handling and validation to ensure robust program behavior.
+Consideration of maintainability and future extensibility in the design of the modular program.

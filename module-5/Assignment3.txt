@@ -1,0 +1,74 @@
+ Building a Custom Exception Class
+
+Objective: To learn about custom exception classes and error handling in Ruby.
+
+Task:
+
+In this assignment, students will gain hands-on experience in creating custom exception classes and implementing error handling mechanisms. They will build a Ruby program that simulates a specific application with error conditions and define a custom exception class to represent domain-specific errors. Students will then implement error handling using try-catch blocks to raise and handle the custom exception.
+
+Instructions:
+
+Application Simulation:
+
+Ask students to choose or create a simple Ruby program that simulates a specific application (e.g., a banking system, a reservation system, or a game).
+Ensure that the chosen application has situations where errors or exceptional conditions can occur (e.g., insufficient funds, seat reservations, game over).
+Custom Exception Class:
+
+Instruct students to define a custom exception class that represents a domain-specific error related to their chosen application. For example, if they are simulating a banking system, they can create a custom InsufficientFundsError class.
+Error Handling:
+
+Encourage students to implement error handling mechanisms using try-catch blocks (begin-rescue-end) within their program.
+In scenarios where errors can occur, students should raise instances of their custom exception class (e.g., raise InsufficientFundsError) when specific conditions are met.
+Demonstration:
+
+Students should demonstrate the use of error handling within their program by simulating scenarios where the custom exception is raised.
+Show how the program gracefully handles these exceptions, providing informative error messages or taking appropriate actions.
+Testing:
+
+Encourage students to thoroughly test their program to ensure that error conditions trigger the custom exceptions and that error handling is effective.
+Documentation:
+
+Ask students to provide comments and documentation explaining the purpose of the custom exception class and how it is used for error handling.
+Example (Banking System Simulation):
+
+
+# Custom exception class representing insufficient funds error
+class InsufficientFundsError < StandardError
+  def initialize(message = "Insufficient funds.")
+    super
+  end
+end
+
+# Simulated bank account
+class BankAccount
+  attr_accessor :balance
+
+  def initialize(balance)
+    @balance = balance
+  end
+
+  def withdraw(amount)
+    raise InsufficientFundsError if amount > @balance
+
+    @balance -= amount
+  end
+end
+
+# Simulation
+account = BankAccount.new(1000)
+
+begin
+  account.withdraw(1500)
+rescue InsufficientFundsError => e
+  puts "Error: #{e.message}"
+  # Additional error handling logic can be added here
+end
+
+
+Evaluation Criteria:
+
+Creation of a custom exception class that accurately represents a domain-specific error.
+Implementation of error handling using try-catch blocks (begin-rescue-end).
+Effective demonstration of error conditions and the handling of custom exceptions within the program.
+Thorough testing of the program to ensure that custom exceptions are raised and handled as expected.
+Clear and organized code with comments explaining the custom exception and error handling logic.

@@ -1,0 +1,63 @@
+Set Up a Basic Rails Application
+
+Objective: To familiarize students with setting up a basic Ruby on Rails application.
+
+Task:
+
+In this assignment, students will create a new Ruby on Rails application from scratch and implement basic CRUD functionality for a simple resource. They will gain hands-on experience in setting up the Rails environment and building a basic web application.
+
+Instructions:
+
+Environment Setup:
+
+Instruct students to set up their development environment with Ruby and Rails installed. They can use tools like RVM or rbenv to manage their Ruby versions.
+Ensure that students have a working knowledge of using the terminal or command prompt for running Rails commands.
+Create a New Rails Application:
+
+Have students create a new Ruby on Rails application using the rails new command. They should give their application a meaningful name.
+Generate a Resource:
+
+Ask students to generate a new resource using the Rails generator. For example, they can create a "Task" resource for a to-do list application.
+
+rails generate scaffold Task title:string description:text
+
+
+This command generates a model, view, and controller for the "Task" resource with attributes for the title and description.
+Implement CRUD Functionality:
+
+Guide students through the process of implementing basic CRUD functionality for the generated resource. They should be able to:
+Create new tasks.
+Read and display a list of tasks.
+Update existing tasks.
+Delete tasks.
+Test the Application:
+
+Instruct students to run their Rails application locally using the rails server command and test the CRUD operations through a web browser or API client like Postman.
+Documentation:
+
+Require students to provide documentation or comments within their code to explain the purpose and functionality of different parts of their application.
+Example (Basic To-Do List Application):
+
+
+# Terminal Commands
+rails new ToDoListApp
+cd ToDoListApp
+rails generate scaffold Task title:string description:text
+rails db:migrate
+
+# Edit the generated controller (tasks_controller.rb) to add strong parameters.
+
+# Implement CRUD functionality in the views and controller.
+
+# Run the application locally:
+rails server
+
+
+Evaluation Criteria:
+
+Successful creation of a new Ruby on Rails application.
+Proper generation of a resource with attributes.
+Implementation of CRUD functionality for the resource.
+Error-free execution of the application locally for testing.
+Clear and organized code with comments explaining functionality.
+Adherence to Rails conventions and best practices.

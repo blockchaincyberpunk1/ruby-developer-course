@@ -1,0 +1,48 @@
+Advanced Enumerables (Optional)
+
+Objective: To challenge students with more complex enumerable tasks and introduce advanced enumerable methods in Ruby.
+
+Task:
+In this optional assignment, students will explore advanced enumerable methods in Ruby and apply them to solve complex data processing or manipulation tasks. Students are encouraged to design a program that leverages advanced enumerable methods like group_by, inject, zip, or others for a specific task. This assignment aims to demonstrate the efficiency and power of advanced enumerable techniques.
+
+Instructions:
+
+Method Selection:
+
+Instruct students to choose one or more advanced enumerable methods to work with. Examples include:
+group_by: Group data based on a specific criterion or attribute.
+inject (also known as reduce): Perform calculations that involve accumulating results across elements.
+zip: Combine multiple collections into a single collection of tuples.
+flat_map: Transform and flatten nested arrays or collections.
+Other advanced enumerable methods available in Ruby.
+Problem Statement:
+
+Define a specific problem or task that requires the use of advanced enumerable methods. Examples include:
+Analyzing data to find patterns or trends.
+Calculating complex statistics.
+Combining and restructuring data from multiple sources.
+Processing nested or multi-dimensional data structures.
+Implementation:
+
+Students should design and implement a Ruby program that:
+Reads data, either from an external source or through manually defined collections.
+Applies the chosen advanced enumerable methods to solve the problem.
+Demonstrates the effectiveness and efficiency of the selected methods.
+Output and Presentation:
+
+Encourage students to display the results of their data processing in a clear and organized manner.
+The output can include statistics, grouped data, transformed data, or any relevant information.
+Students should also provide commentary or documentation explaining their approach and how advanced enumerable methods were used.
+Testing and Verification:
+
+Students should test their program with various datasets to ensure it works correctly and efficiently for different scenarios.
+Commentary and Documentation:
+
+Students should include comments and documentation in their code to explain the problem, the advanced enumerable methods used, and how these methods contribute to solving the problem.
+Evaluation Criteria:
+
+Effective selection and use of advanced enumerable methods to solve a complex problem.
+Clear and organized code that demonstrates the use of advanced enumerables.
+Output that effectively communicates the results of data processing.
+Thorough testing and verification to ensure the program's correctness.
+Well-documented code with comments explaining the problem and approach.

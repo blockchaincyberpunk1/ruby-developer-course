@@ -1,0 +1,48 @@
+Assignment: Building a Basic RESTful API with Rails
+
+Assignment Overview:
+In this assignment, students will learn how to create a basic RESTful API in a Rails application. They will build API endpoints to handle different CRUD (Create, Read, Update, Delete) operations and use tools like Postman to test the API. This assignment aims to introduce students to the concept of building APIs using Rails and familiarize them with the process of handling API requests and responses.
+
+Instructions:
+
+Step 1: Set Up the Rails Application
+
+Instruct students to create a new Rails application using the command line.
+
+Guide them through setting up the necessary configurations for the application, including database configuration and routes.
+
+Step 2: Create API Endpoints
+
+Explain the concept of RESTful APIs and the standard HTTP methods (GET, POST, PUT, DELETE) used for CRUD operations.
+
+Guide students through creating API endpoints for a specific resource, such as "tasks." Each endpoint should correspond to a specific CRUD operation.
+
+Instruct students to define the necessary controller actions for each CRUD operation (e.g., index, show, create, update, destroy).
+
+Step 3: Test the API
+
+Introduce students to Postman, a tool for testing APIs.
+
+Instruct students to use Postman to send requests to their API endpoints and observe the responses.
+
+Guide them through testing various scenarios, such as creating a new task, retrieving task details, updating a task, and deleting a task.
+
+Step 4: Documentation and Presentation
+
+Instruct students to document the API endpoints they created, including the purpose of each endpoint and the expected request and response formats.
+
+Encourage students to prepare a brief presentation where they demonstrate the functionality of the API endpoints using Postman.
+
+Additional Instructions:
+
+Validation: Remind students to implement validation checks and handle potential error scenarios that may arise with the API requests.
+
+Security: Discuss the importance of securing APIs and protecting sensitive data.
+
+Assessment:
+Students' RESTful APIs will be assessed based on the successful creation of API endpoints for CRUD operations, the accuracy of request and response handling, and the quality of the documentation. The clarity of the presentation will also be considered.
+
+Submission:
+Students should submit their Rails application files, including controllers, routes, documentation, and any other relevant files, through the designated platform by [submission deadline].
+
+By completing this assignment, students will have gained practical experience in building a basic RESTful API using Rails and will be better equipped to work with APIs in their future projects.

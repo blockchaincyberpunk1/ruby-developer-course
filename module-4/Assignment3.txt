@@ -1,0 +1,50 @@
+Enumerating Collections
+
+Objective: To familiarize students with enumerable methods in Ruby and their applications.
+
+Task:
+In this assignment, students will work with collections (arrays or hashes) and apply enumerable methods to perform various operations on the data. Enumerable methods are a powerful feature of Ruby for iterating through collections and manipulating their contents.
+
+Instructions:
+
+Collection Selection:
+
+Instruct students to create either an array or a hash containing a set of data. The data can be anything of interest, such as a list of numbers, names, or objects. For example:
+
+numbers = [2, 5, 8, 12, 17, 20]
+
+or
+
+studentGrades = {
+  "Alice" => 95,
+  "Bob" => 88,
+  "Charlie" => 78,
+  "David" => 92
+}
+
+
+Enumerating Methods:
+
+Ask students to choose at least three different enumerable methods (e.g., each, map, select, reduce) and demonstrate their use on the collection.
+Provide specific tasks for each method, such as:
+Using each to iterate through the collection and print each element.
+Using map to transform the elements (e.g., doubling each number or converting grades to letter grades).
+Using select to filter elements based on a condition (e.g., selecting even numbers or students with grades above 90).
+Using reduce (or inject) to perform a calculation on the elements (e.g., finding the sum or product of numbers).
+Demonstrations:
+
+Students should write Ruby code to demonstrate each of the chosen enumerable methods and their respective tasks.
+Ensure they provide clear output to show the results of each operation.
+Commentary:
+
+Encourage students to include comments in their code to explain the purpose of each enumerable method and how it was applied in the context of their chosen collection.
+Testing and Output:
+
+Students should execute their code to demonstrate that each enumerable method produces the expected output for the specified tasks.
+Evaluation Criteria:
+
+Proper definition of the collection (array or hash) with relevant data.
+Correct implementation of at least three different enumerable methods.
+Accurate execution of each enumerable method for specific tasks.
+Clear and well-documented code with comments explaining each method's purpose.
+Output that demonstrates the results of each operation.

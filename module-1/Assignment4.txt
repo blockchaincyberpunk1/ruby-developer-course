@@ -1,0 +1,47 @@
+Basic File I/O
+
+Objective: To introduce file input and output (I/O) in Ruby.
+
+Task:
+In this assignment, students will learn to work with file I/O in Ruby. They will create a Ruby program that reads data from an external text file, processes it, and writes data to a new text file based on certain conditions or operations. Additionally, students will implement error handling to gracefully handle file-related exceptions.
+
+Instructions:
+
+Reading from a Text File:
+
+Provide students with a sample text file (e.g., "input.txt") containing lines of data (e.g., numbers, words, or a CSV-like format).
+Instruct students to write a Ruby program that reads data from "input.txt" and stores it in an appropriate data structure (e.g., an array or hash).
+Data Processing:
+
+Implement logic to process the data read from the file. This could involve tasks such as:
+Calculating statistics (e.g., sum, average) of numerical data.
+Filtering and extracting specific information from the data.
+Performing data transformations based on predefined rules.
+Writing to a Text File:
+
+Instruct students to create a new text file (e.g., "output.txt") to store the results of their data processing.
+Write the processed data to "output.txt" based on the conditions or operations defined in the previous step.
+Error Handling:
+
+Encourage students to implement error handling mechanisms to address potential issues during file I/O operations. This may include handling exceptions such as file not found, permission denied, or read/write errors.
+Ensure that the program gracefully handles exceptions by providing informative error messages to the user.
+User Interaction:
+
+Make the program interactive by allowing the user to specify the input and output file names as command-line arguments or through user prompts.
+Provide clear instructions and user-friendly prompts for file input and output.
+Documentation:
+
+Include comments and documentation in your code to explain each section of the program and the purpose of functions/methods.
+Testing:
+
+Test your program with different input files to ensure it can read, process, and write data correctly.
+Test error-handling scenarios to verify that exceptions are handled gracefully.
+Evaluation Criteria:
+
+Accurate reading of data from the input file.
+Correct data processing and application of predefined operations.
+Proper writing of processed data to the output file.
+Effective error handling for file-related exceptions.
+User-friendly interaction and input/output methods.
+Clarity and completeness of code comments and documentation.
+Thorough testing to ensure the program functions as expected.

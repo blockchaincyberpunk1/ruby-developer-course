@@ -1,0 +1,36 @@
+Assignment: Engaging with the Ruby Community: Active Participation
+
+Assignment Overview:
+In this assignment, students will actively follow the engagement plans they created earlier to participate in the Ruby programming community. They will engage in forums, attend meetups, contribute to open-source projects, or participate in other community activities. Students will document their experiences, insights gained, and any contributions made during their engagement.
+
+Instructions:
+
+Step 1: Actively Engage
+
+Instruct students to follow their engagement plans and actively participate in the Ruby community as per their chosen platforms and activities.
+Step 2: Document Experiences
+
+Encourage students to maintain a journal, blog, or document where they can record their experiences and activities.
+Prompt them to write about interactions, discussions, insights gained, challenges faced, and any contributions they made.
+Step 3: Reflect on Insights
+
+Ask students to reflect on the insights they gained through their community engagement. How did their participation impact their understanding of Ruby programming or related technologies?
+Step 4: Document Contributions
+
+If students contribute to open-source projects, guide them to document their contributions, such as code changes, bug fixes, or new features added.
+Step 5: Compile a Report
+
+Instruct students to compile a comprehensive report that includes:
+A summary of their community engagement activities
+Reflections on their experiences and insights gained
+Details of any contributions made, if applicable
+Step 6: Submit the Report
+
+Students should submit their community engagement report through the designated platform by [submission deadline].
+Assessment:
+Students' submissions will be assessed based on the thoroughness of their community engagement documentation, the quality of their reflections, the significance of their insights, and the impact of their contributions, if applicable.
+
+Submission:
+Students should submit their community engagement report document through the designated platform by [submission deadline].
+
+Completing this assignment will provide students with practical experience in actively engaging with the Ruby programming community. It will also encourage them to reflect on the value of community participation and how it contributes to their growth as developers.

@@ -1,0 +1,165 @@
+Assignment: Exploring Arrays and Hashes in Ruby
+
+Assignment Overview:
+In this assignment, you will delve into the fundamentals of arrays and hashes in Ruby. You will gain hands-on experience by creating arrays and hashes, performing different operations on them, and practicing element access using both index-based and key-based approaches.
+
+Instructions:
+
+Part 1: Arrays
+
+Step 1: Create an array named numbers containing a sequence of integers.
+
+ruby
+Copy code
+numbers = [1, 2, 3, 4, 5]
+Step 2: Use array methods to:
+a. Add elements to the end of the array.
+
+ruby
+Copy code
+numbers.push(6)
+b. Remove elements from the array.
+
+ruby
+Copy code
+numbers.pop
+c. Insert elements at specific positions within the array.
+
+ruby
+Copy code
+numbers.insert(2, 10)
+d. Find the length of the array.
+
+ruby
+Copy code
+length = numbers.length
+e. Check if an element exists within the array.
+
+ruby
+Copy code
+element_exists = numbers.include?(3)
+f. Access elements using index-based notation.
+
+ruby
+Copy code
+second_element = numbers[1]
+Step 3: Document your code and the results of each operation.
+
+ruby
+Copy code
+# Adding an element to the end of the array
+numbers.push(6)
+
+# Removing an element from the array
+numbers.pop
+
+# Inserting an element at a specific position
+numbers.insert(2, 10)
+
+# Finding the length of the array
+length = numbers.length
+
+# Checking if an element exists in the array
+element_exists = numbers.include?(3)
+
+# Accessing an element using index-based notation
+second_element = numbers[1]
+Part 2: Hashes
+
+Step 1: Create a hash named student representing information about a student.
+
+ruby
+Copy code
+student = {
+  name: "Alice",
+  age: 18,
+  grade: "A"
+}
+Step 2: Use hash methods to:
+a. Add new key-value pairs to the hash.
+
+ruby
+Copy code
+student[:school] = "High School"
+b. Update the values associated with existing keys.
+
+ruby
+Copy code
+student[:age] = 19
+c. Remove key-value pairs from the hash.
+
+ruby
+Copy code
+student.delete(:grade)
+d. Access values using key-based notation.
+
+ruby
+Copy code
+student_name = student[:name]
+Step 3: Document your code and the results of each operation.
+
+ruby
+Copy code
+# Adding a new key-value pair to the hash
+student[:school] = "High School"
+
+# Updating the value associated with an existing key
+student[:age] = 19
+
+# Removing a key-value pair from the hash
+student.delete(:grade)
+
+# Accessing a value using key-based notation
+student_name = student[:name]
+Part 3: Combined Practice
+
+Step 1: Create an array of hashes representing a collection of students.
+
+ruby
+Copy code
+students = [
+  { name: "Bob", age: 17, grade: "B" },
+  { name: "Eve", age: 16, grade: "A" }
+]
+Step 2: Perform operations on the array of hashes, such as adding new student records, updating information, and removing students.
+
+ruby
+Copy code
+# Adding a new student record
+new_student = { name: "Charlie", age: 18, grade: "A" }
+students.push(new_student)
+
+# Updating student information
+students[0][:age] = 18
+
+# Removing a student from the array
+students.delete_at(1)
+Step 3: Document your code and the results of each operation.
+
+ruby
+Copy code
+# Adding a new student record to the array
+students.push({ name: "Charlie", age: 18, grade: "A" })
+
+# Updating student information
+students[0][:age] = 18
+
+# Removing a student from the array
+students.delete_at(1)
+Additional Instructions:
+
+Documentation: Include comments that explain the purpose and functionality of each part of your code.
+Code Clarity: Maintain a well-organized code structure with proper indentation.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the successful creation and manipulation of arrays and hashes, as well as the clarity of your documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment provides hands-on practice with arrays and hashes, foundational data structures in Ruby. Enjoy exploring their capabilities and improving your programming skills!

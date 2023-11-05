@@ -1,0 +1,66 @@
+Building a Blogging Platform (Part 2) - Views and Controllers
+
+Objective: To introduce students to views and controllers in Ruby on Rails.
+
+Task:
+
+In this assignment, students will continue working on their Ruby on Rails application for a blogging platform. Building upon the models created in Assignment 2, they will generate controllers for users and posts and create corresponding views. The goal is to implement the views and controller actions necessary for listing posts, displaying individual posts, and allowing users to create new posts.
+
+Instructions:
+
+Building the Application:
+
+Students should continue working on the Ruby on Rails application created in Assignments 1 and 2.
+Controller Generation:
+
+Instruct students to generate controllers for both users and posts using the following commands:
+
+rails generate controller Users
+rails generate controller Posts
+
+
+Controller Actions:
+
+Define controller actions within the Users and Posts controllers to handle the following functionality:
+Users Controller:
+A new action for user registration (e.g., sign up).
+A create action to handle user registration form submissions.
+Optionally, implement additional actions for user login and authentication as needed.
+Posts Controller:
+An index action to list all blog posts.
+A show action to display individual blog posts.
+A new action to render a form for creating new posts.
+A create action to handle post creation form submissions.
+Implement edit and update actions if desired (for updating posts).
+Consider adding a destroy action for deleting posts (optional).
+Views:
+
+Create corresponding views for each controller action mentioned above.
+Use HTML and embedded Ruby (ERB) to structure the views and render dynamic content.
+Ensure that the views maintain a consistent look and feel throughout the application.
+Routes:
+
+Define appropriate routes in the config/routes.rb file to map HTTP requests to controller actions.
+Set up routes for user registration, post listing, post creation, etc.
+Layout:
+
+Create a basic application layout that can be shared across different views.
+Encourage students to use Rails layout templates for consistency.
+Styling (Optional):
+
+If desired, students can add CSS styling to improve the visual presentation of the application.
+Testing (Optional):
+
+Students may choose to implement basic tests for their controller actions and views using testing frameworks like RSpec or MiniTest.
+Documentation:
+
+Require students to provide comments within their code to explain the purpose of controller actions and views.
+Evaluation Criteria:
+
+Successful generation of controllers for users and posts.
+Correct definition of controller actions and views for user registration, post listing, post creation, and other relevant functionality.
+Proper routing configuration in config/routes.rb.
+Clear and organized code with comments explaining controller and view functionality.
+Optional: Implementation of basic tests.
+Optional: Implementation of CSS styling for improved user experience.
+Consistency in the layout and design of the application.

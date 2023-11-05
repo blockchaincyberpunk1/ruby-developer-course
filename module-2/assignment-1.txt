@@ -1,0 +1,106 @@
+Assignment: Exploring Basic Ruby Concepts through Script
+
+Assignment Overview:
+In this assignment, you will create a simple Ruby script that showcases fundamental concepts such as variable declaration, output, and arithmetic operations. Through this exercise, you will gain hands-on experience in writing and executing Ruby scripts to observe the results.
+
+Instructions:
+
+Step 1: Setting Up Your Environment
+Ensure you have Ruby installed on your computer. If not, you can download it from the official Ruby website (https://www.ruby-lang.org/en/documentation/installation/).
+
+Step 2: Writing the Ruby Script
+
+Task: Create a Ruby script that demonstrates basic concepts through variable declaration, output, and arithmetic operations.
+
+Script Requirements:
+
+Declare two variables num1 and num2, each assigned an integer value.
+Perform addition, subtraction, multiplication, and division operations using the variables.
+Use puts statements to output the operations' results along with meaningful messages.
+Sample Output:
+
+yaml
+Copy code
+First number: 8
+Second number: 3
+Addition: 8 + 3 = 11
+Subtraction: 8 - 3 = 5
+Multiplication: 8 * 3 = 24
+Division: 8 / 3 = 2
+Step 3: Writing and Executing the Script
+
+Open a text editor or integrated development environment (IDE) to write your Ruby script.
+Write the necessary code to fulfill the script requirements.
+Here's the Ruby code for the script:
+
+ruby
+Copy code
+# Ruby script to demonstrate basic concepts: variable declaration, output, and arithmetic operations
+
+# Declare variables
+num1 = 8
+num2 = 3
+
+# Perform arithmetic operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+
+# Output the results with meaningful messages
+puts "First number: #{num1}"
+puts "Second number: #{num2}"
+puts "Addition: #{num1} + #{num2} = #{addition}"
+puts "Subtraction: #{num1} - #{num2} = #{subtraction}"
+puts "Multiplication: #{num1} * #{num2} = #{multiplication}"
+puts "Division: #{num1} / #{num2} = #{division}"
+Step 4: Testing and Observation
+
+Save the script with a meaningful file name, such as basic_concepts_demo.rb.
+Open your terminal or command prompt.
+Navigate to the directory where you saved your Ruby script.
+Run the script by typing ruby basic_concepts_demo.rb.
+Observe the output and results of the script's operations.
+Step 5: Documentation and Reflection
+
+Document your script with comments to explain the purpose of each section of code.
+Reflect on the experience of writing the script, executing it, and the results you observed.
+
+ruby
+Copy code
+# This Ruby script demonstrates basic programming concepts: variable declaration, output, and arithmetic operations.
+
+# Declare variables
+num1 = 8
+num2 = 3
+
+# Perform arithmetic operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+
+# Output the results with meaningful messages
+puts "First number: #{num1}"
+puts "Second number: #{num2}"
+puts "Addition: #{num1} + #{num2} = #{addition}"
+puts "Subtraction: #{num1} - #{num2} = #{subtraction}"
+puts "Multiplication: #{num1} * #{num2} = #{multiplication}"
+puts "Division: #{num1} / #{num2} = #{division}"
+Additional Instructions:
+
+Output Clarity: Ensure your script generates clear and easy-to-understand output messages.
+Code Organization: Organize your code with proper indentation and comments for clarity.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the correctness of your script, the clarity of your output messages, and the quality of your code and documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment aims to provide you with hands-on experience in writing Ruby scripts that demonstrate basic programming concepts. Enjoy the process of coding and observing your script's results!

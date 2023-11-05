@@ -1,0 +1,43 @@
+Assignment: Test-Driven Development (TDD) Implementation of a Feature in a Rails Application
+
+Assignment Overview:
+In this assignment, students will apply their knowledge of Test-Driven Development (TDD) to implement a feature or piece of functionality in their existing Ruby on Rails application. By selecting a specific feature and following the TDD process, students will gain practical experience in writing tests, implementing code, and refactoring while maintaining a structured approach to development.
+
+Instructions:
+
+Step 1: Choosing the Feature
+
+Instruct students to choose a specific feature or functionality from their existing Rails application that they want to implement using the TDD approach.
+Step 2: TDD Implementation
+
+Guide students through the TDD process for implementing their chosen feature:
+a. Write failing tests that describe the expected behavior of the chosen feature.
+b. Implement the necessary code to make the tests pass, focusing on the smallest increments of functionality.
+c. Refactor the code to improve its structure, readability, and adherence to Rails conventions.
+Step 3: Running Tests and Reviewing Code
+
+Instruct students to run their test suite to ensure that the implemented feature is working as expected.
+
+Guide them through reviewing their code to ensure it aligns with Rails coding conventions and best practices.
+
+Step 4: Documentation and Reflection
+
+Ask students to document the TDD process they followed for implementing the chosen feature. They should explain each step, provide code snippets, and describe any challenges encountered.
+
+Encourage students to reflect on the benefits of using TDD for feature development. What were the advantages of writing tests first? How did TDD help them avoid potential issues or bugs?
+
+Additional Tips:
+
+Feature Selection: Students can choose from a wide range of features such as adding user comments, implementing search functionality, integrating third-party APIs, or enhancing user profiles.
+
+TDD Principles: Remind students of the TDD cycle: Red (failing test), Green (passing test), and Refactor.
+
+Benefits of TDD: Discuss how TDD promotes incremental development, early issue identification, and code quality.
+
+Assessment:
+Students' submissions will be assessed based on the accuracy and completeness of the feature implementation, the quality and thoroughness of the test suite, the effectiveness of code refactoring, the documentation of the TDD process, and the reflection on the benefits of TDD.
+
+Submission:
+Students should submit their Rails application files, test cases, documentation of the TDD process, and reflection materials through the designated platform by [submission deadline].
+
+Through this assignment, students will gain practical experience in applying Test-Driven Development principles to implement a feature in their existing Ruby on Rails application. They will learn how TDD enhances feature development, improves code quality, and fosters a structured approach to building software.

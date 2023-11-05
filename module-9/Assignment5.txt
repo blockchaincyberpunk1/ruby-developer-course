@@ -1,0 +1,37 @@
+Best Practices and Tutorials Review
+
+Objective: To promote continuous learning of best practices and tutorials within the Ruby ecosystem.
+
+Task:
+
+In this assignment, students will delve into best practices and tutorials within the Ruby ecosystem to enhance their development skills and knowledge. The Ruby community continually produces valuable resources, and staying informed is crucial for becoming a proficient Ruby developer.
+
+Instructions:
+
+Resource Selection:
+
+Instruct students to explore online resources, blogs, tutorials, or articles that cover Ruby development best practices, design patterns, or performance optimization.
+They can choose topics such as SOLID principles, MVC architecture, Ruby on Rails conventions, or any other relevant subject within Ruby development.
+In-Depth Study:
+
+Require students to select one specific topic or tutorial of interest and study it in-depth.
+Encourage them to read the source material carefully, take notes, and thoroughly understand the concepts presented.
+Comprehensive Summary or Presentation:
+
+Task students with creating a comprehensive summary or presentation about the chosen topic.
+Emphasize that the summary or presentation should not merely regurgitate information but should explain the topic in their own words.
+Practical Examples:
+
+Encourage students to provide practical examples or code snippets that illustrate the best practices or concepts they've learned.
+These examples should be Ruby-specific and showcase how the knowledge can be applied in real-world Ruby development scenarios.
+Sharing and Discussion:
+
+Have students share their summaries or presentations with the class through written reports, presentations, or online discussions.
+Encourage open discussions and questions about the topics presented.
+Evaluation Criteria:
+
+Selection of a relevant and valuable Ruby development topic or tutorial.
+Depth of understanding demonstrated in the summary or presentation.
+Clarity and coherence of the presented information.
+Inclusion of practical examples or code snippets.
+Active participation in discussions and the ability to answer questions about the topic.

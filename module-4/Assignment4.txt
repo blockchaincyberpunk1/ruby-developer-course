@@ -1,0 +1,44 @@
+Implementing a Simple Data Processing Tool
+
+Objective: To apply enumerable methods in a real-world data processing scenario using Ruby.
+
+Task:
+In this assignment, students will design and implement a Ruby program that serves as a simple data processing tool. The program should read data, store it in a suitable data structure (array or hash), and use enumerable methods to perform specific data analysis or manipulation tasks.
+
+Instructions:
+
+Problem Definition:
+
+Instruct students to choose a specific problem or dataset to work with. Examples include:
+Processing a list of student grades and calculating statistics.
+Analyzing sales data to find the total revenue, average sales, or best-selling items.
+Processing a collection of text data, such as counting word occurrences or finding specific patterns.
+Data Input:
+
+Ask students to write code that reads data from an external source (e.g., a text file or user input) and stores it in an appropriate data structure (array or hash).
+Enumerable Methods:
+
+Students should apply enumerable methods (e.g., each, map, select, reduce) to analyze or manipulate the data.
+Depending on the chosen problem, they may perform tasks like:
+Calculating statistics (e.g., mean, median, mode, standard deviation).
+Filtering data based on specific conditions.
+Summarizing data or generating reports.
+Processing text data (e.g., counting words, finding patterns).
+Output:
+
+Students should design their program to display the results of the data processing.
+The output can include statistics, filtered data, summary reports, or any relevant information.
+Commentary and Documentation:
+
+Encourage students to include comments and documentation in their code to explain the problem, the approach used, and how each enumerable method contributes to solving the problem.
+Testing and Verification:
+
+Students should thoroughly test their program with different datasets to ensure it works correctly and produces accurate results.
+Evaluation Criteria:
+
+Appropriate selection of a real-world problem or dataset.
+Accurate reading and storage of data in a suitable data structure.
+Effective use of enumerable methods to analyze or manipulate the data.
+Clear and well-documented code with comments explaining the problem and approach.
+Output that demonstrates the results of data processing and aligns with the problem statement.
+Thorough testing and verification of the program's functionality.

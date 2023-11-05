@@ -1,0 +1,110 @@
+Assignment: Exploring Class Hierarchies and Inheritance in Ruby
+
+Assignment Overview:
+In this assignment, you will create a simple class hierarchy in Ruby to demonstrate the concepts of inheritance, method overriding, and the use of instance variables. Through this exercise, you will gain a deeper understanding of object-oriented programming principles in Ruby.
+
+Instructions:
+
+Step 1: Class Hierarchy Definition
+Define a base class named Vehicle.
+Create two subclasses: Car and Motorcycle.
+
+Step 2: Class Properties and Methods
+
+In the Vehicle class:
+
+Add instance variables brand and model.
+Create an initializer to set the instance variables.
+Define a method display_info that displays the vehicle's brand and model.
+Here's the Ruby code for the Vehicle class:
+
+ruby
+Copy code
+class Vehicle
+  def initialize(brand, model)
+    @brand = brand
+    @model = model
+  end
+
+  def display_info
+    puts "Vehicle: #{@brand} #{@model}"
+  end
+end
+In the Car class:
+
+Inherit from the Vehicle class.
+Add an additional instance variable num_doors.
+Override the display_info method to include the number of doors.
+Here's the Ruby code for the Car class:
+
+ruby
+Copy code
+class Car < Vehicle
+  def initialize(brand, model, num_doors)
+    super(brand, model)
+    @num_doors = num_doors
+  end
+
+  def display_info
+    super
+    puts "Number of doors: #{@num_doors}"
+  end
+end
+In the Motorcycle class:
+
+Inherit from the Vehicle class.
+Add an additional instance variable has_sidecar.
+Override the display_info method to include whether the motorcycle has a sidecar.
+Here's the Ruby code for the Motorcycle class:
+
+ruby
+Copy code
+class Motorcycle < Vehicle
+  def initialize(brand, model, has_sidecar)
+    super(brand, model)
+    @has_sidecar = has_sidecar
+  end
+
+  def display_info
+    super
+    sidecar_info = @has_sidecar ? "with sidecar" : "without sidecar"
+    puts "Sidecar status: #{sidecar_info}"
+  end
+end
+Step 3: Creating Instances and Method Calls
+
+Create instances of the Car and Motorcycle classes with appropriate information.
+Call the display_info method on each instance to display their respective information.
+
+ruby
+Copy code
+# Create instances
+car = Car.new("Toyota", "Corolla", 4)
+motorcycle = Motorcycle.new("Harley-Davidson", "Sportster", true)
+
+# Call display_info on instances
+car.display_info
+motorcycle.display_info
+Step 4: Documentation and Reflection
+
+Document your class hierarchy, instance variables, methods, and method overrides with comments.
+Reflect on your experience of creating and using a class hierarchy and the concepts of inheritance.
+
+Additional Instructions:
+
+Instance Variables: Make effective use of instance variables to store and display information.
+Method Overrides: Ensure that the overridden methods in the subclasses provide meaningful additional information.
+Code Clarity: Organize your code with proper indentation and clear comments.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the correctness of your class hierarchy, the appropriate use of inheritance and method overrides, and the clarity of your code and documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment aims to provide you with hands-on experience in creating class hierarchies, implementing inheritance, and practicing method overrides using the Ruby programming language. Enjoy the process of designing and working with classes and objects!

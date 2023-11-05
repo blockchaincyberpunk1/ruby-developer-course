@@ -1,0 +1,55 @@
+Adding Advanced Features (Part 2) - User Profiles
+
+Objective: To further enhance the Rails application with user profiles.
+
+Task:
+
+In this assignment, students will continue to build upon their Task Management App by adding user profile functionality. The goal is to provide users with the ability to customize their profiles, view other users' profiles, and follow/unfollow other users.
+
+Instructions:
+
+Project Continuation:
+
+Instruct students to continue working on their existing Task Management App project.
+User Profile Functionality:
+
+Explain the concept of user profiles and their importance in social and collaborative applications.
+Profile Attributes:
+
+Modify the "User" model to include additional attributes such as:
+Name (first name and last name)
+Profile picture (avatar)
+Bio or description
+User Profile Page:
+
+Implement a "user profile" page that displays a user's profile picture, name, bio, and other relevant information.
+Ensure that the user's tasks are also displayed on their profile page.
+Profile Customization:
+
+Enable users to update their profile information, including name, profile picture, and bio.
+Ensure that profile updates are reflected throughout the application.
+Follow/Unfollow Feature:
+
+Implement a feature that allows users to follow and unfollow other users.
+Display the number of followers and following on user profiles.
+Show a list of followers and those being followed on user profiles.
+User Interaction:
+
+Encourage students to design the user interface to facilitate user interactions, such as following/unfollowing and viewing profiles.
+Testing:
+
+Instruct students to thoroughly test the user profile and follow/unfollow features to ensure they work as expected.
+Test scenarios like profile updates, following/unfollowing, and viewing profiles of other users.
+Documentation:
+
+Update the README.md file to include instructions for using the user profile functionality and the follow/unfollow feature.
+Provide clear guidance on customizing profiles and interacting with other users.
+Evaluation Criteria:
+
+Successful implementation of user profile attributes (name, profile picture, bio) in the User model.
+Implementation of a user profile page that displays user information and tasks.
+Functionality to customize user profiles and ensure updates are reflected throughout the application.
+Proper implementation of the follow/unfollow feature, with follower and following counts displayed on user profiles.
+User-friendly and intuitive user interface for profile customization and user interactions.
+Thorough testing of the user profile and follow/unfollow features with different scenarios.
+Updated documentation that provides clear instructions for using user profiles and interacting with other users.

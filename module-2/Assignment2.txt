@@ -1,0 +1,47 @@
+Control Structures and Loops in Ruby
+
+Objective: To practice control structures and loops in Ruby.
+
+Task:
+In this assignment, students will deepen their understanding of control structures and loops in Ruby by working on three distinct tasks. Each task focuses on a specific aspect of control structures, including loops, conditional statements, and function encapsulation. Students will write a Ruby program that accomplishes the following:
+
+Calculate Factorial Using a Loop:
+
+Instruct students to create a Ruby program that calculates the factorial of a given positive integer using a loop (e.g., 5! = 5 x 4 x 3 x 2 x 1).
+Prompt the user to enter a positive integer (n) and calculate its factorial using a loop.
+Ensure proper input validation to handle non-positive integers.
+Print Fibonacci Sequence:
+
+Ask students to implement a loop that prints the Fibonacci sequence up to a specified limit.
+Prompt the user to enter the limit (n) up to which the Fibonacci sequence should be generated.
+Calculate and print the Fibonacci numbers within the specified limit.
+Encourage students to handle edge cases and provide clear instructions.
+Check for Prime Numbers:
+
+Instruct students to use conditional statements (if, else) to check whether a given positive integer is a prime number.
+Create a function (method) that takes an integer as an argument and returns whether it is prime or not.
+Prompt the user to enter a positive integer and use the function to determine if it is prime.
+Provide appropriate feedback to the user based on the result.
+Encapsulation:
+
+Emphasize the importance of encapsulation by encouraging students to encapsulate the logic for each task in separate functions (methods).
+Each function should have a clear purpose, such as calculating factorial, generating Fibonacci numbers, or checking for prime numbers.
+Ensure that students call these functions in the main program to accomplish the respective tasks.
+User Experience:
+
+Ensure that the program provides clear instructions and a user-friendly experience.
+Handle user input and errors gracefully, providing informative messages.
+Include appropriate prompts and messages for each task.
+Testing:
+
+Ask students to test the program with various inputs to verify its correctness and reliability.
+Ensure that the program functions as expected and produces accurate results for factorial calculation, Fibonacci sequence generation, and prime number checking.
+Evaluation Criteria:
+
+Correct implementation of the program, including loops, conditional statements, and function encapsulation.
+Accurate calculation of factorials and generation of the Fibonacci sequence.
+Proper validation of user input for non-negative integers.
+Accurate determination of prime numbers and appropriate user feedback.
+Effective encapsulation of logic in separate functions with clear purposes.
+User-friendly prompts, messages, and error handling.
+Proper testing and verification of the program's functionality.

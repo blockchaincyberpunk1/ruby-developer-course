@@ -1,0 +1,54 @@
+Create a Task Management App
+
+Objective: To practice building a web application with Ruby on Rails.
+
+Task:
+
+In this assignment, students will build a Task Management App using Ruby on Rails. This project will help them apply the fundamentals of web development, including creating models, views, and controllers, as well as implementing user authentication.
+
+Instructions:
+
+Project Setup:
+
+Instruct students to create a new Ruby on Rails application for the Task Management App using the rails new command.
+User Authentication:
+
+Introduce user authentication by integrating a gem like Devise into the application.
+Walk students through the configuration and customization of Devise to allow users to sign up, log in, log out, and reset passwords.
+Task Model:
+
+Define a "Task" model with the following attributes: title, description, due date, and status (e.g., "completed" or "incomplete").
+Generate the migration and create the database table for the Task model.
+Task Views and Controllers:
+
+Create views and controllers for tasks, including:
+A task index page that lists all tasks.
+A task detail page displaying the title, description, due date, and status of a task.
+A form for adding new tasks.
+An edit form for modifying existing tasks.
+The ability to mark tasks as completed or incomplete.
+Routing:
+
+Set up appropriate routes and route helpers for task-related actions.
+User Associations (Optional):
+
+If students have prior knowledge of associations, encourage them to associate tasks with the users who created them. This allows users to have their own task lists.
+Styling and Layout (Optional):
+
+Optionally, students can style their Task Management App using CSS frameworks like Bootstrap or custom CSS.
+Testing (Optional):
+
+While testing is optional for this assignment, you can introduce the basics of testing in Rails using tools like RSpec and Capybara. Students can write tests to ensure that the application's functionality works as expected.
+Documentation:
+
+Require students to provide a README.md file with instructions on how to set up and run their Task Management App locally.
+Evaluation Criteria:
+
+Successful implementation of user authentication using Devise or a similar gem.
+Creation of the Task model with the specified attributes.
+Implementation of views and controllers for managing tasks.
+Proper routing to handle task-related actions.
+Optional: User associations (if implemented).
+Optional: Styling and layout of the application.
+Optional: Testing (if implemented).
+Documentation that provides clear instructions for running the application locally.

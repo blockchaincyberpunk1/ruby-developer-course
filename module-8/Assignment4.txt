@@ -1,0 +1,42 @@
+Test-Driven Development (TDD) Practice
+
+Objective: To reinforce the principles of Test-Driven Development (TDD).
+
+Task:
+
+In this assignment, students will gain hands-on experience with Test-Driven Development (TDD), a development methodology that emphasizes writing tests before implementing code. TDD helps ensure code correctness and maintainability. Students will apply TDD principles to a feature or functionality in their Ruby on Rails application.
+
+Instructions:
+
+Feature Selection:
+
+Instruct students to choose a specific feature or functionality in their Ruby on Rails application that they want to implement or enhance. It could be a new feature or an improvement to an existing one.
+Writing the Initial Test:
+
+Explain the concept of TDD, emphasizing the process of writing tests before implementing code.
+Task students with writing the first failing test for the selected feature. This test should describe the desired behavior of the feature.
+Encourage them to use RSpec syntax for writing tests (describe, context, it).
+Implementing Code:
+
+Once the initial test is in place and failing, instruct students to implement the code necessary to make the test pass.
+Emphasize that they should write the minimum code required to pass the test, avoiding overengineering.
+Iterating the TDD Cycle:
+
+After successfully implementing the code and passing the initial test, instruct students to write additional tests for the same feature.
+Require that they follow the TDD cycle for each test:
+a. Write a failing test.
+b. Implement the code to make it pass.
+Students should iterate this process until they have comprehensive test coverage for the feature.
+Documentation:
+
+Ask students to document the TDD process they followed for the chosen feature. This should include:
+The initial failing test.
+The code changes made to pass each test.
+Any challenges or issues encountered during the TDD process.
+The benefits and insights gained from using TDD.
+Evaluation Criteria:
+
+Selection of a suitable feature or functionality for TDD practice.
+Writing of a clear and comprehensive initial failing test.
+Incremental implementation of code, ensuring that each test passes before moving on.
+Thorough documentation of the TDD process, including challenges and benefits.

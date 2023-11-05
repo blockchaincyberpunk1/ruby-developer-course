@@ -1,0 +1,129 @@
+# Ignore Ruby and Rails specific files
+*.rbc
+capybara-*.html
+.rspec
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*
+/tmp/*
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp/pids/*
+/tmp/cache/*
+/tmp/sockets/*
+/public/system/*
+
+# Ignore other unnecessary files
+coverage/
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# Ignore Bundler config and installed gems.
+/.bundle
+/vendor/bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all configuration files that contain sensitive information.
+/config/*.yml
+/config/initializers/secret_token.rb
+/config/initializers/omniauth.rb
+
+# Ignore master key (Rails 5.2+)
+/config/master.key
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore Mac and Linux file system files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Ignore files related to IDEs and text editors.
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.cproject
+.settings/
+nbproject/
+build/
+target/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore node_modules
+node_modules/
+
+# Ignore precompiled assets in Rails
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore dotenv environment variables file
+.env
+.env.*
+
+# Ignore local configuration
+/config/settings.local.yml
+/config/settings/*.local.yml
+/config/environments/*.local.yml
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore local database config
+/config/database.yml
+
+# Ignore the database schema file if using Rails
+/db/schema.rb
+/db/structure.sql
+
+# Ignore sprockets files
+/sprockets-manifest*.json
+
+# Ignore upload files in development
+/storage/*
+!/storage/.keep
+
+# Ignore yarn files
+/yarn-error.log
+
+# Ignore coverage data
+/coverage
+/coverage/*
+!/coverage/.keep
+/.coverage
+.coverage.json
+
+# Ignore pycache
+__pycache__/
+*.py[cod]
+
+# Ignore local env files
+.localenv
+.env.local
+.env
+
+/articles
+/guides
+/infographics
+/presentations
+/projects

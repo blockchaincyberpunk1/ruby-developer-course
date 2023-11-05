@@ -1,0 +1,42 @@
+Control Structures and Loops
+
+Objective: To reinforce understanding of control structures and loops in Ruby.
+
+Task:
+In this assignment, students will deepen their knowledge of control structures and loops in Ruby by completing a series of tasks. They will work with loops to calculate factorials, print the Fibonacci sequence, and identify prime numbers.
+
+Instructions:
+
+Factorial Calculation:
+
+Write a Ruby program that calculates the factorial of a given positive integer using a loop.
+Create a function that takes an integer as input (e.g., 5) and calculates its factorial (5! = 5 x 4 x 3 x 2 x 1).
+Ensure the program handles both input validation (non-negative integer) and the calculation itself using a loop.
+Fibonacci Sequence:
+
+Implement a loop to print the Fibonacci sequence up to a specified limit.
+Create a function that takes an integer n as input and prints the Fibonacci sequence up to the nth term.
+The Fibonacci sequence starts with 0 and 1, and each subsequent term is the sum of the two preceding terms (0, 1, 1, 2, 3, 5, ...).
+Prime Number Checker:
+
+Use conditional statements (if, else) to create a function that checks whether a given integer is a prime number.
+A prime number is a positive integer greater than 1 that is divisible only by 1 and itself.
+The function should return true if the number is prime and false otherwise.
+Interactive Program:
+
+Modify your program to be interactive, allowing the user to choose which task (factorial calculation, Fibonacci sequence, or prime number check) they want to perform.
+Based on the user's choice, take appropriate inputs and display results.
+Documentation:
+
+Include comments and documentation in your code to explain each section of the program and the purpose of functions/methods.
+Testing:
+
+Test your program with various inputs to ensure it produces correct results for all three tasks.
+Evaluation Criteria:
+
+Correct calculation of factorials and printing of the Fibonacci sequence.
+Accurate identification of prime numbers.
+Proper use of control structures (loops and conditional statements).
+User-friendly interactive interface for task selection.
+Clarity and completeness of code comments and documentation.
+Thorough testing to ensure program functionality.

@@ -1,0 +1,33 @@
+Ruby Language Updates and Rails Framework Enhancements
+
+Objective: To keep students informed about Ruby language updates and Rails framework enhancements.
+
+Task:
+
+In this assignment, students will stay updated with the latest developments in the Ruby language and the Ruby on Rails framework. Being aware of new features, enhancements, and best practices is essential for maintaining a competitive edge as Ruby developers.
+
+Instructions:
+
+News Source Selection:
+
+Instruct students to select and subscribe to reliable Ruby and Rails news sources, such as Ruby Weekly, Rails Weekly, official Ruby and Rails blogs, or relevant newsletters.
+Ongoing Updates:
+
+Task students with regularly checking and reading the latest news and updates from their chosen sources.
+Encourage them to explore official announcements, release notes, and blog posts related to Ruby language releases and Rails framework changes.
+Summary and Analysis:
+
+Require students to summarize the most significant updates, improvements, or changes they come across.
+Ask them to provide context and analysis of how these updates impact Ruby development and Ruby on Rails projects.
+Encourage them to focus on practical implications, such as improved performance, security enhancements, or new features.
+Integration into Workflow:
+
+Prompt students to reflect on how the updates and enhancements they've learned about can be integrated into their current or future projects.
+Encourage them to discuss any challenges or opportunities these updates present in their work.
+Evaluation Criteria:
+
+Selection and subscription to reliable Ruby and Rails news sources.
+Regular monitoring and reading of updates from these sources.
+Thorough and concise summaries of significant Ruby and Rails updates.
+Insightful analysis of the practical implications of these updates.
+Thoughtful reflection on integrating updates into their development workflow.

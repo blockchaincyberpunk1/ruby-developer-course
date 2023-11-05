@@ -1,0 +1,47 @@
+API Integration
+
+Objective: To gain experience in integrating external APIs with a Ruby on Rails application.
+
+Task:
+
+In this assignment, students will integrate an external API of their choice into their Ruby on Rails application. They will implement features that use the external API's data, handle errors gracefully, and ensure a seamless user experience.
+
+Instructions:
+
+Choose an External API:
+
+Instruct students to select a popular external API. They can choose from options like Twitter, GitHub, Google Maps, weather APIs, or any API of their interest.
+Encourage them to consider the API's documentation, endpoints, and data availability.
+Integration:
+
+Guide students on how to integrate the selected API into their existing Ruby on Rails application.
+Ensure they understand how to make API requests using HTTP methods (e.g., GET requests).
+Explain the process of parsing API responses (usually in JSON or XML format) to extract relevant data.
+Feature Implementation:
+
+Task students with implementing at least one feature that uses the external API's data within their Rails application. Examples include:
+Displaying recent tweets on a user profile page (Twitter API).
+Listing a user's repositories and their details (GitHub API).
+Using geolocation data to provide location-based services (Google Maps API).
+Displaying current weather conditions and forecasts (weather API).
+Error Handling:
+
+Emphasize the importance of error handling and graceful degradation. Instruct students to implement error-handling mechanisms for scenarios where the external API is unavailable or returns errors.
+Encourage them to provide user-friendly error messages or fallback data.
+Testing:
+
+Encourage students to thoroughly test the integrated feature to ensure it works correctly with real API data.
+Suggest using testing tools or frameworks (e.g., RSpec) for unit and integration testing.
+Documentation:
+
+Require students to document the API integration process in their Rails application. This documentation should include instructions for setting up the environment, making API requests, and handling errors.
+Presentation:
+
+Instruct students to present their integrated feature to the class, showcasing how it works and the value it adds to their application.
+Evaluation Criteria:
+
+Successful integration of an external API into the Rails application.
+Implementation of at least one feature using the API's data.
+Effective error handling and graceful degradation when the external API is unavailable.
+Comprehensive testing to ensure feature functionality.
+Clear documentation of the API integration process.

@@ -1,0 +1,66 @@
+# Assignment: Applying Enumerable Methods to Manipulate Data in Ruby
+
+# Assignment Overview:
+# In this assignment, you will delve into the practical applications of enumerable methods in Ruby.
+# You will engage in hands-on exercises where you will work with arrays and hashes,
+# applying methods like map, select, and reduce to manipulate and transform data based on specific scenarios.
+
+# Instructions:
+
+# Part 1: Mapping Data with Enumerable Methods
+
+# Step 1: Create an array named temperatures containing the following temperatures in Celsius: 20, 25, 18, 30, 22.
+temperatures = [20, 25, 18, 30, 22]
+
+# Step 2: Use the map method to convert the temperatures to Fahrenheit using the formula: (Celsius * 9/5) + 32.
+fahrenheit_temperatures = temperatures.map { |celsius| (celsius * 9/5) + 32 }
+
+# Step 3: Display both the original Celsius temperatures and the corresponding Fahrenheit temperatures.
+puts "Original Celsius Temperatures: #{temperatures}"
+puts "Fahrenheit Temperatures: #{fahrenheit_temperatures}"
+
+# Part 2: Selecting Data with Enumerable Methods
+
+# Step 1: Create an array named fruits containing the following fruits: "apple", "banana", "grape", "orange", "kiwi".
+fruits = ["apple", "banana", "grape", "orange", "kiwi"]
+
+# Step 2: Use the select method to filter out fruits with more than 5 characters.
+short_fruits = fruits.select { |fruit| fruit.length <= 5 }
+
+# Step 3: Display the original array and the filtered array of fruits.
+puts "Original Fruits: #{fruits}"
+puts "Short Fruits: #{short_fruits}"
+
+# Part 3: Reducing Data with Enumerable Methods
+
+# Step 1: Create an array named numbers containing the following integers: 5, 10, 15, 20, 25.
+numbers = [5, 10, 15, 20, 25]
+
+# Step 2: Use the reduce method to calculate the product of all numbers in the array.
+product = numbers.reduce(1) { |result, number| result * number }
+
+# Step 3: Display the original array and the calculated product.
+puts "Original Numbers: #{numbers}"
+puts "Product of Numbers: #{product}"
+
+# Additional Instructions:
+
+# Documentation: Include comments that explain the purpose and functionality of each part of your code.
+# Code Clarity: Maintain a well-organized code structure with proper indentation.
+
+# Submission:
+
+# Compile your Ruby script file and your documentation into a single folder.
+
+# Assessment:
+
+# Your assignment will be assessed based on your ability to apply enumerable methods effectively to manipulate data,
+# as well as the clarity of your documentation.
+
+# Submission:
+
+# Compile your assignment files (Ruby script file, documentation) into a single folder.
+# Submit the folder through the designated platform by [submission deadline].
+
+# This assignment provides hands-on experience in using essential enumerable methods to transform and manipulate data,
+# further enhancing your programming skills in Ruby. Enjoy applying these methods to practical scenarios!

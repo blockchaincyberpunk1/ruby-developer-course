@@ -1,0 +1,48 @@
+Assignment: Enhancing Data Querying Application with Complex Queries and Features
+
+Assignment Overview:
+In this assignment, students will build upon the previously created Rails application that demonstrates data querying using ActiveRecord. They will be tasked with enhancing the application by adding more complex queries and implementing additional features. This assignment aims to challenge students to dive deeper into data querying concepts and explore more advanced features of ActiveRecord.
+
+Instructions:
+
+Step 1: Review Existing Application
+
+Instruct students to review the Rails application they created in the previous assignment, which demonstrates data querying using ActiveRecord.
+
+Have them ensure that the application is functioning correctly and that they can retrieve data from the database.
+
+Step 2: Choose Complex Queries and Features
+
+Provide students with a list of more complex querying tasks and potential features they can add to the application. Examples include:
+Implement a search functionality that allows users to search for products by name.
+Retrieve products with the highest and lowest prices.
+Implement pagination for displaying query results.
+Calculate the total value of products in each category.
+Instruct students to choose at least two complex queries or features to implement.
+Step 3: Implementation and Testing
+
+Guide students through implementing the chosen queries or features in their Rails application.
+
+Instruct them to modify existing models, controllers, and views as necessary to accommodate the new functionality.
+
+Encourage students to test the new queries and features thoroughly to ensure they work as expected.
+
+Step 4: Documentation and Presentation
+
+Instruct students to document the new queries or features they added, including how they were implemented and their purpose.
+
+Encourage students to prepare a brief presentation where they demonstrate the enhanced functionality to the class.
+
+Additional Instructions:
+
+Code Quality: Emphasize the importance of maintaining clean and well-documented code as they implement new functionality.
+
+Validation: Remind students to implement validation checks and handle potential edge cases that may arise with the new features.
+
+Assessment:
+Students' enhanced Rails applications will be assessed based on the successful implementation of complex queries and additional features, as well as the quality of the added functionality. Code organization, documentation, and the clarity of the presentation will also be considered.
+
+Submission:
+Students should submit their enhanced Rails application files, including models, controllers, views, documentation, and any other relevant files, through the designated platform by [submission deadline].
+
+By completing this assignment, students will have further developed their skills in using ActiveRecord for complex data querying and gained experience in adding new features to a Rails application.

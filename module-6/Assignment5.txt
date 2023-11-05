@@ -1,0 +1,40 @@
+Implementing Advanced Features
+
+Objective: To challenge students to implement advanced features in their Ruby on Rails application.
+
+Task:
+
+In this assignment, students will build on their existing Ruby on Rails application and implement at least one advanced feature. This feature should extend the functionality of their application and provide users with additional capabilities. Students are encouraged to choose a feature that aligns with their project's theme and requirements.
+
+Instructions:
+
+Feature Selection:
+
+Ask students to select and describe an advanced feature they want to implement in their Rails application. Some examples of advanced features include:
+Image uploads for user avatars or content.
+Commenting system for blog posts or articles.
+User profile pages with customizable information.
+Search functionality to allow users to find content.
+Integration:
+
+Guide students in integrating the selected feature seamlessly into their existing Rails application. Ensure that the feature interacts well with the current database schema and user interface.
+Implementation:
+
+Instruct students to write the necessary code to implement the feature. This may include creating new models, controllers, views, and routes.
+Encourage students to follow Rails conventions and best practices while implementing the feature.
+Testing:
+
+Emphasize the importance of thorough testing. Students should test the new feature extensively to ensure that it functions correctly and does not introduce bugs or security vulnerabilities.
+Documentation:
+
+Require students to provide clear and detailed documentation on how to use the newly implemented feature. This documentation should be accessible to both users and other developers.
+Presentation (Optional):
+
+Offer students the opportunity to present their advanced feature and its functionality to the class. This can include a live demonstration or a walkthrough of the code.
+Evaluation Criteria:
+
+Successful implementation of the advanced feature, meeting the specified requirements.
+Integration of the feature into the existing Rails application with a seamless user experience.
+Thorough testing to ensure the feature functions correctly and securely.
+Comprehensive documentation that explains how to use the feature.
+Optional: Effective presentation and communication of the feature's functionality.

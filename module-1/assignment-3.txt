@@ -1,0 +1,106 @@
+Assignment: Exploring Basic Ruby Concepts
+
+Assignment Overview:
+In this assignment, you will be guided through writing a simple Ruby script that demonstrates fundamental concepts such as variable declaration, output, and basic arithmetic operations. This assignment is designed to help you practice the basics of Ruby programming.
+
+Instructions:
+
+Step 1: Setting Up Your Environment
+Ensure you have Ruby installed on your computer. You can download it from the official Ruby website (https://www.ruby-lang.org/en/documentation/installation/).
+
+Step 2: Writing the Ruby Script
+
+Task: Create a Ruby script that performs basic arithmetic operations and displays the results.
+
+Script Requirements:
+
+Declare variables to store two integer values.
+Perform addition, subtraction, multiplication, and division operations using the variables.
+Output the results of each operation with appropriate messages.
+Sample Output:
+
+yaml
+Copy code
+Number 1: 10
+Number 2: 5
+Addition: 10 + 5 = 15
+Subtraction: 10 - 5 = 5
+Multiplication: 10 * 5 = 50
+Division: 10 / 5 = 2
+Step 3: Writing the Script
+
+Open a text editor or integrated development environment (IDE) to write your Ruby script.
+Write the necessary code to fulfill the script requirements.
+
+Here's the Ruby code for the script:
+
+ruby
+Copy code
+# Ruby script to demonstrate basic arithmetic operations
+
+# Declare variables
+number1 = 10
+number2 = 5
+
+# Perform arithmetic operations
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
+division = number1 / number2
+
+# Output the results
+puts "Number 1: #{number1}"
+puts "Number 2: #{number2}"
+puts "Addition: #{number1} + #{number2} = #{addition}"
+puts "Subtraction: #{number1} - #{number2} = #{subtraction}"
+puts "Multiplication: #{number1} * #{number2} = #{multiplication}"
+puts "Division: #{number1} / #{number2} = #{division}"
+Step 4: Testing the Script
+
+Save the script with a meaningful file name, such as basic_arithmetic.rb.
+Open your terminal or command prompt.
+Navigate to the directory where you saved your Ruby script.
+Run the script by typing ruby basic_arithmetic.rb.
+Step 5: Documentation and Reflection
+
+Document your script with comments to explain the purpose of each section of code.
+Reflect on the experience of writing the script and any challenges you encountered.
+
+ruby
+Copy code
+# This Ruby script demonstrates basic arithmetic operations using variables.
+
+# Declare variables
+number1 = 10
+number2 = 5
+
+# Perform arithmetic operations
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
+division = number1 / number2
+
+# Output the results
+puts "Number 1: #{number1}"
+puts "Number 2: #{number2}"
+puts "Addition: #{number1} + #{number2} = #{addition}"
+puts "Subtraction: #{number1} - #{number2} = #{subtraction}"
+puts "Multiplication: #{number1} * #{number2} = #{multiplication}"
+puts "Division: #{number1} / #{number2} = #{division}"
+Additional Instructions:
+
+User-Friendly Output: Ensure your script generates clear and informative output messages.
+Code Organization: Organize your code with proper indentation and comments for clarity.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the correctness of your script, the adherence to the requirements, and the clarity of your code and documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment will provide you with a hands-on experience of working with basic concepts in Ruby programming. Enjoy the process of coding and testing your script!

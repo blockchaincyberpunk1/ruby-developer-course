@@ -1,0 +1,120 @@
+Assignment: Exploring Arrays and Hashes Operations in Ruby
+
+Assignment Overview:
+In this assignment, you will have the opportunity to practice creating arrays and hashes in Ruby and perform specific operations on them. By completing the tasks, you will gain a deeper understanding of working with these fundamental data structures and their various operations.
+
+Instructions:
+
+Part 1: Arrays Exploration
+
+Step 1: Create an array named numbers containing the following integers: 5, 10, 15, 20, 25.
+
+ruby
+Copy code
+numbers = [5, 10, 15, 20, 25]
+Step 2: Use array methods to:
+a. Add the number 30 to the end of the array.
+
+ruby
+Copy code
+numbers.push(30)
+b. Remove the number 10 from the array.
+
+ruby
+Copy code
+numbers.delete(10)
+c. Insert the number 12 at index 2.
+
+ruby
+Copy code
+numbers.insert(2, 12)
+d. Find the total number of elements in the array.
+
+ruby
+Copy code
+total_elements = numbers.length
+e. Check if the array contains the number 15.
+
+ruby
+Copy code
+contains_15 = numbers.include?(15)
+f. Access and display the element at index 3.
+
+ruby
+Copy code
+element_at_index_3 = numbers[3]
+Part 2: Hashes Exploration
+
+Step 1: Create a hash named book representing a book's information with the following key-value pairs:
+
+ruby
+Copy code
+book = {
+  "title" => "The Great Gatsby",
+  "author" => "F. Scott Fitzgerald",
+  "year" => 1925
+}
+Step 2: Use hash methods to:
+a. Add a new key "genre" with the value "Fiction" to the hash.
+
+ruby
+Copy code
+book["genre"] = "Fiction"
+b. Update the author's name to "Francis Scott Fitzgerald."
+
+ruby
+Copy code
+book["author"] = "Francis Scott Fitzgerald"
+c. Remove the "year" key from the hash.
+
+ruby
+Copy code
+book.delete("year")
+d. Check if the hash contains the key "rating."
+
+ruby
+Copy code
+contains_rating = book.key?("rating")
+e. Access and display the value associated with the "title" key.
+
+ruby
+Copy code
+title_value = book["title"]
+Part 3: Reporting
+
+Write a brief report summarizing your findings from both the array and hash explorations.
+In this assignment, I performed the following tasks:
+
+Array Exploration:
+
+Created an array named numbers with integers 5, 10, 15, 20, 25.
+Used array methods to add 30 to the end, remove 10, and insert 12 at index 2.
+Found the total number of elements in the array and checked if it contains 15.
+Accessed and displayed the element at index 3.
+Hash Exploration:
+
+Created a hash named book representing book information.
+Used hash methods to add a "genre" key, update the author's name, and remove the "year" key.
+Checked if the hash contains the key "rating" and accessed the value associated with the "title" key.
+My observations and insights:
+
+Arrays and hashes are versatile data structures in Ruby.
+Array methods like push, delete, and include? are helpful for manipulation.
+Hash methods like []=, delete, and key? provide efficient ways to modify and access data.
+Additional Instructions:
+
+Documentation: Include comments that explain the purpose and functionality of each part of your code.
+Code Clarity: Maintain a well-organized code structure with proper indentation.
+Submission:
+
+Compile your Ruby script file, your report, and any other necessary files into a single folder.
+
+Assessment:
+
+Your assignment will be assessed based on your ability to create, manipulate, and interact with arrays and hashes, as well as the clarity of your documentation and report.
+
+Submission:
+
+Compile your assignment files (Ruby script file, report) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment encourages you to explore and document your experience with arrays and hashes, two core data structures in Ruby programming. Enjoy the process of experimentation and learning!

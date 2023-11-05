@@ -1,0 +1,52 @@
+Handling Hashes
+
+Objective: To practice working with Ruby hashes and performing various operations on them.
+
+Task:
+In this assignment, students will explore the use of Ruby hashes, which are collections of key-value pairs. They will work with hashes to access values by keys, add new key-value pairs, update existing ones, and iterate through the data.
+
+Instructions:
+
+Define a Hash:
+
+Instruct students to define a Ruby hash named studentGrades representing a collection of student names and their corresponding grades. Each key should be a student's name (a string), and each value should be their grade (an integer). For example:
+
+studentGrades = {
+  "Alice" => 95,
+  "Bob" => 88,
+  "Charlie" => 78,
+  "David" => 92
+}
+
+
+Accessing Hash Values:
+
+Write Ruby code that demonstrates how to access values in the studentGrades hash by using the keys. For instance, students should retrieve and print Alice's grade.
+Modifying the Hash:
+
+Instruct students to perform the following actions on the studentGrades hash:
+Add a new student, "Eve," with a grade of 87.
+Update Bob's grade to 90.
+Remove Charlie's entry from the hash.
+Iterating Through the Hash:
+
+Students should use hash iteration methods such as each, map, or select to perform tasks like:
+Calculating the average grade for all students.
+Identifying students with grades above a certain threshold.
+Printing all student names and grades.
+Commenting and Documentation:
+
+Encourage students to include comments in their code to explain the purpose of each block of code.
+Ask them to provide brief documentation for the hash manipulation methods used, explaining what each method does and how it was applied in their code.
+Testing and Output:
+
+Students should execute their code to demonstrate that it correctly accesses, modifies, and iterates through the hash and produces the expected output.
+Evaluation Criteria:
+
+Correct definition of the studentGrades hash with key-value pairs.
+Accurate code for accessing hash values by keys.
+Proper implementation of actions to add, update, and remove entries from the hash.
+Appropriate use of hash iteration methods for various tasks.
+Inclusion of comments to explain code blocks.
+Documentation of the hash manipulation methods used and their application.
+Correct execution of the code with the expected output.

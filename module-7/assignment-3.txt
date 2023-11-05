@@ -1,0 +1,46 @@
+Assignment: Enhancing the Task Management Application with Additional Features
+
+Assignment Overview:
+In this assignment, you will challenge students to enhance the task management application they built using Ruby on Rails by adding new features. Specifically, they will be tasked with implementing features like task prioritization and task assignment to users. By completing this assignment, students will deepen their understanding of web application development and gain experience in extending functionality.
+
+Instructions:
+
+Step 1: Review the Existing Application
+
+Instruct students to review the code and structure of their existing task management application developed in the previous assignment.
+Step 2: Implement Task Prioritization
+
+Guide students through adding a priority attribute to the Task model to represent the importance of tasks (e.g., low, medium, high).
+
+Lead them to create a drop-down menu or radio buttons on the task creation/edit form to select the task priority.
+
+Explain how to update the TasksController to handle the new priority attribute.
+
+Step 3: Implement Task Assignment to Users
+
+Instruct students to extend the Task model to include an association with the User model, allowing tasks to be assigned to specific users.
+
+Guide them through creating a dropdown menu on the task creation/edit form to select the user to whom the task should be assigned.
+
+Lead students to update the TasksController to handle the assignment of tasks to users.
+
+Step 4: Update Views and User Interface
+
+Explain how to modify the views to display the priority and assigned user information for each task.
+
+Encourage students to implement visual indicators for task priority (e.g., different colors for high-priority tasks) and display the assigned user's name.
+
+Step 5: Test and Debug
+
+Suggest that students thoroughly test the new features they've implemented to ensure they work as expected.
+Additional Instructions:
+
+Styling: Encourage students to apply appropriate styling to the new features they've added to maintain a consistent and visually appealing user interface.
+Validation: Remind students to implement necessary validation checks to ensure that users select valid options for priority and assigned users.
+Assessment:
+Students' enhanced task management applications will be assessed based on the successful implementation of the new features (task prioritization and assignment to users), as well as the overall functionality and user experience of the application. Code quality, organization, and documentation will also be considered.
+
+Submission:
+Students should submit their completed and enhanced Ruby on Rails application files through the designated platform by [submission deadline].
+
+By completing this assignment, students will have further developed their web application development skills and gained experience in extending the functionality of a real-world application.

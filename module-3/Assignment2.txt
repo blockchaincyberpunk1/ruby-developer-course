@@ -1,0 +1,42 @@
+Inheritance and Subclasses
+
+Objective: To explore inheritance and subclasses in Ruby.
+
+Task:
+In this assignment, students will delve into object-oriented programming concepts related to inheritance and subclasses in Ruby. The primary goal is to create a base class named "Vehicle" and several subclasses (e.g., "Car," "Truck," "Motorcycle") that inherit from the base class. Each subclass should have its own unique methods and attributes in addition to inheriting attributes from the base class. Here are the details of the assignment:
+
+Define the Base Class "Vehicle":
+
+Instruct students to define a Ruby class named "Vehicle."
+The "Vehicle" class should have the following attributes (instance variables):
+make (string): Represents the vehicle's manufacturer or make.
+model (string): Represents the vehicle's model.
+year (integer): Represents the manufacturing year of the vehicle.
+Provide guidance on defining instance variables and the "initialize" method for object initialization.
+Create Subclasses:
+
+Ask students to create three subclasses (Car, Truck, Motorcycle) that inherit from the "Vehicle" class.
+Each subclass should introduce its own unique attributes and methods that are specific to the type of vehicle.
+For example, the "Car" subclass could have attributes like "num_doors" and methods like "start_engine," while the "Truck" subclass might have attributes like "cargo_capacity" and methods like "load_cargo."
+Implement Subclass Methods:
+
+Within each subclass (Car, Truck, Motorcycle), have students implement methods that demonstrate the specific behaviors or features of that type of vehicle.
+Encourage them to use the attributes defined for each subclass in their methods.
+The methods can simulate actions or operations related to the vehicles, such as starting the engine, loading cargo, or calculating fuel efficiency.
+Object Creation and Usage:
+
+Instruct students to demonstrate the use of inheritance by creating instances (objects) of both the base class ("Vehicle") and the subclasses ("Car," "Truck," "Motorcycle").
+Have them set and retrieve attributes, as well as call methods specific to each class.
+Encourage them to print relevant information to the console to showcase the functionality of their classes and objects.
+Code Documentation:
+
+Emphasize the importance of adding comments and documentation to their code to explain the purpose of the base class, subclasses, attributes, and methods.
+Encourage students to include explanations for each part of their code.
+Evaluation Criteria:
+
+Correct definition of the base class "Vehicle" with specified attributes (make, model, year).
+Creation of subclasses (Car, Truck, Motorcycle) that inherit from the base class.
+Accurate implementation of unique attributes and methods within each subclass.
+Demonstrated ability to use objects of the base class and subclasses to set attributes, retrieve information, and call methods.
+Proper documentation and comments in the code for clarity and understanding.
+Successful demonstration of the inheritance concept through object creation and usage.

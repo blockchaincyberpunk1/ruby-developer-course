@@ -1,0 +1,36 @@
+Assignment: Analyzing a Real-World Rails Application
+
+Assignment Overview:
+In this assignment, you will ask students to analyze a real-world Ruby on Rails application to gain insights into its structure and components. By examining the application's models, views, and controllers, students will deepen their understanding of how a complex Rails application is organized and functions.
+
+Instructions:
+
+Step 1: Select a Real-World Rails Application
+
+Instruct students to choose a real-world Ruby on Rails application. It could be an open-source project, a popular website, or any other application available on platforms like GitHub.
+Encourage them to select an application that interests them and aligns with their learning objectives.
+Step 2: Identify Models, Views, and Controllers
+
+Ask students to thoroughly explore the chosen Rails application's source code.
+Instruct them to identify and list the models, views, and controllers present in the application.
+Encourage them to pay attention to the naming conventions and file structures used for these components.
+Step 3: Explain Roles and Interactions
+
+Guide students to analyze the roles and responsibilities of the identified models, views, and controllers in the application.
+Ask them to explain how these components interact with each other to achieve the application's functionality.
+Encourage them to document their findings and observations in a clear and organized manner.
+Step 4: Discuss Complexity and Best Practices
+
+Encourage students to reflect on the complexity of the application based on the number of models, views, and controllers.
+Instruct them to consider whether the application adheres to best practices in terms of separation of concerns, code organization, and maintainability.
+Additional Instructions:
+
+Research: Encourage students to research the application's documentation, README files, and any available user guides to gather more insights.
+Questions: Suggest that students ask questions such as: How are controllers used to handle user interactions? What data is managed by the models? How are views rendering content to users?
+Assessment:
+Students' analysis will be assessed based on their ability to accurately identify models, views, and controllers, as well as their explanations of the roles and interactions among these components. The depth of insights and understanding of the application's structure will also be considered.
+
+Submission:
+Students should submit their analysis in the form of a document, presentation, or any other suitable format through the designated platform by [submission deadline].
+
+By completing this assignment, students will gain practical experience in analyzing real-world Rails applications, enhancing their ability to understand and dissect complex codebases.

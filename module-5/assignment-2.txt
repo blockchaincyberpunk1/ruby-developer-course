@@ -1,0 +1,126 @@
+Assignment: Exploring Metaprogramming and Reflection in Ruby
+
+Assignment Overview:
+In this assignment, you will dive deeper into the world of metaprogramming and reflection in Ruby. You will explore how to create dynamic methods, modify class definitions, and inspect class information using metaprogramming techniques and reflection capabilities.
+
+Instructions:
+
+Part 1: Creating Dynamic Methods
+
+Step 1: Define a class named MathOperations with two instance variables: @x and @y.
+
+ruby
+Copy code
+class MathOperations
+  attr_accessor :x, :y
+
+  def initialize(x, y)
+    @x = x
+    @y = y
+  end
+end
+Step 2: Implement metaprogramming techniques to dynamically create methods for addition, subtraction, multiplication, and division operations based on the instance variables.
+
+ruby
+Copy code
+class MathOperations
+  # ... (previous code)
+
+  %w(add subtract multiply divide).each do |operation|
+    define_method(operation) do
+      instance_variable_get("@x").send(operation, instance_variable_get("@y"))
+    end
+  end
+end
+Step 3: Create an instance of the MathOperations class and test the dynamically created methods for various operations.
+
+ruby
+Copy code
+calculator = MathOperations.new(10, 5)
+puts calculator.add   # Output: 15
+puts calculator.subtract   # Output: 5
+puts calculator.multiply   # Output: 50
+puts calculator.divide   # Output: 2
+Part 2: Modifying Class Definitions
+
+Step 1: Define a class named Vehicle with a default attribute wheels set to 4.
+
+ruby
+Copy code
+class Vehicle
+  attr_accessor :wheels
+
+  def initialize
+    @wheels = 4
+  end
+end
+Step 2: Implement metaprogramming techniques to modify the wheels attribute of the Vehicle class to a value provided by the user at runtime.
+
+ruby
+Copy code
+class Vehicle
+  # ... (previous code)
+
+  def set_wheels(value)
+    @wheels = value
+  end
+end
+Step 3: Create an instance of the Vehicle class and ensure that the modified attribute value is reflected correctly.
+
+ruby
+Copy code
+vehicle = Vehicle.new
+puts vehicle.wheels   # Output: 4
+
+vehicle.set_wheels(6)
+puts vehicle.wheels   # Output: 6
+Part 3: Inspecting Class Information
+
+Step 1: Define a class named Person with attributes name and age.
+
+ruby
+Copy code
+class Person
+  attr_accessor :name, :age
+
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+end
+Step 2: Implement reflection techniques to retrieve and display information about the class structure, including its methods and attributes.
+
+ruby
+Copy code
+class Person
+  # ... (previous code)
+
+  def display_class_info
+    puts "Class name: #{self.class}"
+    puts "Instance variables: #{instance_variables}"
+    puts "Methods: #{methods(false)}"
+  end
+end
+Step 3: Create an instance of the Person class and use reflection to display its attributes and methods.
+
+ruby
+Copy code
+person = Person.new("Alice", 25)
+person.display_class_info
+Additional Instructions:
+
+Documentation: Include comments that explain the purpose and functionality of each part of your code.
+Code Clarity: Maintain a well-organized code structure with proper indentation.
+Submission:
+
+Compile your Ruby script file and your documentation into a single folder.
+
+Assessment:
+
+Your assignment will be assessed based on your ability to apply metaprogramming techniques and reflection to create dynamic methods, modify class definitions, and inspect class information, as well as the clarity of your documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, documentation) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment offers a hands-on experience in utilizing metaprogramming and reflection to enhance your understanding of Ruby's dynamic nature. Enjoy the exploration!

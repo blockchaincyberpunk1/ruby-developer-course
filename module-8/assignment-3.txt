@@ -1,0 +1,54 @@
+Assignment: Integrating a Third-Party API into a Rails Application
+
+Assignment Overview:
+In this assignment, students will explore the process of integrating a third-party API into a Ruby on Rails application. They will research and choose a suitable API, understand its documentation, and implement the integration within their Rails project. By completing this assignment, students will learn how to work with external APIs and leverage their functionality to enhance their Rails applications.
+
+Instructions:
+
+Step 1: Choose a Third-Party API
+
+Instruct students to research and select a third-party API that aligns with the theme or purpose of their Rails application. This could be an API related to weather data, social media, maps, payment processing, or any other relevant domain.
+
+Encourage students to consider the API's features, data formats (JSON, XML), authentication methods (API keys, OAuth), and documentation quality.
+
+Step 2: Understand the API Documentation
+
+Guide students through reading and understanding the API documentation provided by the chosen third-party service. They should pay attention to endpoints, request formats, authentication procedures, and response structures.
+
+Highlight the importance of reading rate limits and usage policies set by the API provider.
+
+Step 3: Implement API Integration
+
+Instruct students to incorporate the chosen API integration within their existing Rails application.
+
+Assist them in creating a new controller or modifying an existing one to handle API requests. They should define methods that interact with the API endpoints and retrieve relevant data.
+
+Help students set up authentication mechanisms if required by the API provider.
+
+Step 4: Test API Integration
+
+Guide students through testing the API integration within their Rails application. They should verify that they can successfully send requests to the third-party API and receive valid responses.
+
+Encourage them to handle potential errors gracefully and provide user-friendly error messages.
+
+Step 5: Documentation and Presentation
+
+Instruct students to document the process of integrating the third-party API into their Rails application. They should explain the steps taken, any challenges faced, and the benefits of using the API.
+
+Ask students to prepare a presentation showcasing their API integration, demonstrating how it enhances their application's functionality.
+
+Additional Tips:
+
+API Key Management: Remind students to securely manage API keys and avoid hardcoding them into their application code.
+
+Data Transformation: Discuss how to transform and format API responses to fit the application's needs.
+
+Error Handling: Emphasize the importance of handling API-related errors and providing appropriate error messages to users.
+
+Assessment:
+Students' submissions will be evaluated based on the successful integration of the third-party API into their Rails application, the accuracy of data retrieval, the quality of error handling, the documentation of the integration process, and the effectiveness of the presentation.
+
+Submission:
+Students should submit their Rails application files, documentation, and presentation materials through the designated platform by [submission deadline].
+
+Through this assignment, students will gain practical experience in researching, integrating, and utilizing third-party APIs to extend the functionality of their Ruby on Rails applications, expanding their skills in web development and API integration.

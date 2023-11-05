@@ -1,0 +1,122 @@
+Assignment: Ruby Programming Basics
+
+Assignment Overview:
+In this assignment, you will be guided through writing a simple program in the Ruby programming language. The program will demonstrate the use of variables, conditionals, and loops. This assignment is designed to help you practice fundamental concepts in programming using Ruby.
+
+Instructions:
+
+Step 1: Setting Up Your Environment
+Ensure you have Ruby installed on your computer. You can download it from the official Ruby website (https://www.ruby-lang.org/en/documentation/installation/).
+
+Step 2: Writing the Program
+
+Task: Create a simple Ruby program that calculates the sum of even numbers within a specified range.
+
+Program Requirements:
+
+Prompt the user to enter two integers: a starting number and an ending number.
+Calculate and display the sum of all even numbers within the specified range (inclusive of both start and end numbers).
+Use a loop to iterate through the range of numbers and conditionals to identify even numbers.
+Ensure the program handles cases where the starting number is greater than the ending number.
+Sample Output:
+
+yaml
+Copy code
+Enter the starting number: 3
+Enter the ending number: 10
+The even numbers between 3 and 10 are: 4, 6, 8, 10
+The sum of even numbers in this range is: 28
+Step 3: Coding the Program
+
+Open a text editor or integrated development environment (IDE) to write your Ruby program.
+Write the necessary code to fulfill the program requirements.
+
+Here's the Ruby code for the program:
+
+ruby
+Copy code
+# Ruby program to calculate the sum of even numbers within a range
+
+# Prompt the user for input
+print "Enter the starting number: "
+start_number = gets.chomp.to_i
+
+print "Enter the ending number: "
+end_number = gets.chomp.to_i
+
+# Swap start and end numbers if needed
+if start_number > end_number
+  start_number, end_number = end_number, start_number
+end
+
+# Initialize variables
+even_numbers = []
+sum = 0
+
+# Find even numbers and calculate sum
+(start_number..end_number).each do |num|
+  if num.even?
+    even_numbers << num
+    sum += num
+  end
+end
+
+# Display even numbers and sum
+puts "The even numbers between #{start_number} and #{end_number} are: #{even_numbers.join(', ')}"
+puts "The sum of even numbers in this range is: #{sum}"
+Step 4: Testing the Program
+
+Save the program with a meaningful file name, such as even_sum_calculator.rb.
+Open your terminal or command prompt.
+Navigate to the directory where you saved your Ruby program.
+Run the program by typing ruby even_sum_calculator.rb.
+Step 5: Documentation and Reflection
+
+Document your program with comments to explain the purpose of each section of code.
+Reflect on the experience of writing the program and any challenges you encountered.
+
+ruby
+Copy code
+# This program calculates the sum of even numbers within a specified range.
+
+# Prompt the user for starting and ending numbers
+print "Enter the starting number: "
+start_number = gets.chomp.to_i
+
+print "Enter the ending number: "
+end_number = gets.chomp.to_i
+
+# Ensure the start and end numbers are correctly ordered
+if start_number > end_number
+  start_number, end_number = end_number, start_number
+end
+
+# Initialize arrays to store even numbers and their sum
+even_numbers = []
+sum = 0
+
+# Iterate through the range and find even numbers
+(start_number..end_number).each do |num|
+  if num.even?
+    even_numbers << num
+    sum += num
+  end
+end
+
+# Display the results
+puts "The even numbers between #{start_number} and #{end_number} are: #{even_numbers.join(', ')}"
+puts "The sum of even numbers in this range is: #{sum}"
+Additional Instructions:
+
+User-Friendly Input: Ensure your program guides the user through input prompts clearly.
+Error Handling: Consider handling cases where the user enters non-integer values or where the starting number is greater than the ending number.
+Code Organization: Organize your code with proper indentation and comments for clarity.
+Submission:
+
+Compile your Ruby program file and your documentation into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the correctness of your program, the adherence to the requirements, and the clarity of your code and documentation.
+
+This assignment will help you gain practical experience in using variables, conditionals, and loops in Ruby programming. Enjoy the process of coding and testing your program!

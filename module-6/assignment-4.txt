@@ -1,0 +1,45 @@
+Assignment: Building a Simple CRUD Application with Rails
+
+Assignment Overview:
+In this assignment, you will guide students through the process of creating a basic CRUD (Create, Read, Update, Delete) application using Ruby on Rails. The objective is to help them practice implementing models, views, and controllers to manage a simple data entity.
+
+Instructions:
+
+Step 1: Set Up a New Rails Application
+
+Instruct students to create a new Ruby on Rails application using the command line.
+Guide them through the process of generating the necessary files and directory structure.
+Step 2: Define the Data Entity
+
+Ask students to define a simple data entity for their CRUD application. This could be something like "Tasks," "Notes," or any other entity they choose.
+Instruct them to generate a model for the chosen data entity, specifying the attributes it will have.
+Step 3: Create Controllers and Views
+
+Guide students to generate a controller for the data entity.
+Instruct them to create the necessary views for actions such as listing all items, showing a single item, creating a new item, updating an item, and deleting an item.
+Step 4: Implement CRUD Operations
+
+Walk students through implementing the CRUD operations for their chosen data entity:
+Create: Allow users to add new items to the application.
+Read: Display a list of all items and allow users to view individual items.
+Update: Enable users to edit and update existing items.
+Delete: Provide the ability to delete items from the application.
+Step 5: Test and Validate
+
+Instruct students to test the application by running it locally and interacting with the CRUD functionality.
+Encourage them to ensure that each CRUD operation works as expected and that data is being manipulated correctly.
+Additional Instructions:
+
+Hands-On Practice: Emphasize the importance of hands-on practice to understand the process of building a CRUD application.
+Documentation: Encourage students to document their process, including any challenges they faced and how they resolved them.
+Assessment:
+Students' applications will be assessed based on the successful implementation of CRUD functionality, adherence to the provided instructions, and the quality of their documentation.
+
+Submission:
+Students should submit their completed CRUD application code and any relevant documentation through the designated platform by [submission deadline].
+
+By completing this assignment, students will gain practical experience in building a basic CRUD application using Ruby on Rails, reinforcing their understanding of models, views, and controllers.
+
+
+
+

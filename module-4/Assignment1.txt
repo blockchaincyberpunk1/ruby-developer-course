@@ -1,0 +1,42 @@
+Exploring Arrays
+
+Objective: To practice working with Ruby arrays and array methods.
+
+Task:
+In this assignment, students will explore the fundamentals of working with arrays in Ruby. They will create arrays containing a mix of data types and use various array methods to manipulate and iterate through the data.
+
+Instructions:
+
+Create an Array:
+
+Instruct students to create an array named dataArray containing a mix of data types. They can include integers, strings, floats, or any other data they prefer. For example:
+
+dataArray = [10, "apple", 3.14, "banana", 42]
+
+
+Array Iteration:
+
+Write Ruby code that iterates through the dataArray and performs the following actions:
+Print each element in the array.
+Calculate the length of each string element and print it.
+Check if an element is an integer and print a message if it is.
+Calculate the sum of all numeric elements in the array and print it.
+Use Array Methods:
+
+Instruct students to use at least three different array methods to manipulate and work with the dataArray. They can choose from methods such as each, map, select, reject, include?, count, max, min, and others.
+For example, they can use the map method to create a new array with the lengths of all string elements or use select to filter elements based on a specific condition.
+Commenting and Documentation:
+
+Encourage students to include comments in their code to explain the purpose of each block of code.
+Ask them to provide brief documentation for the chosen array methods, explaining what each method does and how it was used in their code.
+Testing and Output:
+
+Students should execute their code to demonstrate that it correctly iterates through the array, applies the selected array methods, and produces the expected output.
+Evaluation Criteria:
+
+Correct creation of the dataArray with a mix of data types.
+Accurate array iteration code that prints elements, calculates string lengths, and identifies integers.
+Proper use of at least three different array methods to manipulate the data.
+Inclusion of comments to explain code blocks.
+Documentation of the array methods used, their purpose, and how they were applied.
+Correct execution of the code with the expected output.

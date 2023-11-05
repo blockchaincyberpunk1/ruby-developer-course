@@ -1,0 +1,53 @@
+Assignment: Enhancing Your Class Hierarchy with Advanced Methods
+
+Assignment Overview:
+In this assignment, you will build upon the class hierarchy you created earlier and enhance it by adding more methods and behaviors to the classes. Through this exercise, you will deepen your understanding of object-oriented programming principles and demonstrate your ability to design more complex class structures.
+
+Instructions:
+
+Step 1: Review Your Class Hierarchy
+Review the class hierarchy you created for the previous activity.
+Identify areas where you can add more methods and behaviors to enhance the functionality of the classes.
+
+Step 2: Identifying Enhancements
+Identify specific methods and behaviors you can add to each class to enrich their functionality.
+Consider adding methods that perform specific actions related to the class's characteristics.
+
+Step 3: Choosing Enhancements
+Select at least two enhancements for each class to implement.
+Plan how these enhancements will contribute to making your class hierarchy more sophisticated.
+
+Step 4: Implementing Enhancements
+Modify your existing classes to incorporate the chosen enhancements.
+Write new methods that provide additional behaviors based on the characteristics of each class.
+
+Step 5: Testing and Validation
+Test your enhanced class hierarchy by creating instances and calling the new methods.
+Validate that the added methods perform their intended actions correctly.
+
+Step 6: Documentation and Reflection
+Document the enhancements you made to each class, explaining the purpose and functionality of each new method.
+Reflect on the challenges you faced while enhancing your class hierarchy and the benefits of the new methods.
+
+Additional Instructions:
+
+Method Modularity: Ensure that the new methods are well-organized within the classes and follow good coding practices.
+Enhancement Creativity: Challenge yourself to think creatively and add methods that extend the capabilities of the classes.
+Code Clarity: Maintain clear and concise code structure with proper indentation and comments.
+Submission:
+
+Compile your Ruby script file, updated documentation, and reflection into a single folder. Include a readme file that explains the purpose of the assignment.
+
+Assessment:
+
+Your assignment will be assessed based on the creativity and complexity of the enhancements, the correctness of your methods, and the clarity of your documentation.
+
+Submission:
+
+Compile your assignment files (Ruby script file, updated documentation, reflection, readme) into a single folder. Submit the folder through the designated platform by [submission deadline].
+
+This assignment provides an opportunity for you to extend your Ruby programming skills by adding advanced methods and behaviors to your existing class hierarchy. Enjoy the process of enhancing your classes and exploring new possibilities!
+
+
+
+

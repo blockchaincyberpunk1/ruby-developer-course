@@ -1,0 +1,78 @@
+Assignment: Building a Simple Task Management Application with Ruby on Rails
+
+Assignment Overview:
+In this assignment, you will lead students through a step-by-step activity to build a basic task management application using Ruby on Rails. The application will include user authentication and CRUD (Create, Read, Update, Delete) functionality for tasks. By completing this assignment, students will gain practical experience in developing web applications using Ruby on Rails.
+
+Instructions:
+
+Step 1: Set Up the Rails Application
+
+Instruct students to create a new Ruby on Rails application with a specific name:
+
+bash
+Copy code
+rails new TaskManagerApp
+Ask them to navigate to the application directory:
+
+bash
+Copy code
+cd TaskManagerApp
+Step 2: Implement User Authentication with Devise
+
+Guide students through integrating user authentication using the Devise gem:
+
+Add the Devise gem to the Gemfile and run bundle install.
+Run rails generate devise:install to set up Devise.
+Create a User model using Devise: rails generate devise User.
+Run database migrations: rails db:migrate.
+Step 3: Create Models and Controllers for Tasks
+
+Instruct students to generate a Task model with attributes like title, description, and completed:
+
+bash
+Copy code
+rails generate model Task title:string description:text completed:boolean
+Explain how to create the corresponding database table using migrations:
+
+bash
+Copy code
+rails db:migrate
+Guide students to generate a TasksController with CRUD actions:
+
+bash
+Copy code
+rails generate controller Tasks
+Step 4: Develop CRUD Functionality for Tasks
+
+Lead students through implementing CRUD operations in the TasksController:
+
+Create tasks (new, create actions)
+List tasks (index action)
+Show task details (show action)
+Edit tasks (edit, update actions)
+Delete tasks (destroy action)
+Step 5: Design Views for Tasks
+
+Instruct students to design views for tasks using HTML and ERB (Embedded Ruby):
+
+Create forms for task creation and editing
+Display task details
+List tasks on the index page
+Step 6: Implement Navigation and Authentication
+
+Guide students through creating navigation links in the application layout (e.g., Home, Tasks, Sign Up, Log In).
+
+Explain how to add authentication checks to control access to tasks based on user login status.
+
+Additional Instructions:
+
+Styling: Encourage students to apply basic styling using CSS to enhance the application's appearance.
+Testing: Suggest that students test the application's functionality at each step to ensure it works as expected.
+Documentation: Emphasize the importance of documenting code changes and adding comments for clarity.
+Assessment:
+Students' applications will be assessed based on their ability to implement user authentication, CRUD operations, and a functional task management system. The clarity and organization of their code, as well as the user experience of the application, will also be considered.
+
+Submission:
+Students should submit their completed Ruby on Rails application files through the designated platform by [submission deadline].
+
+By completing this assignment, students will have built a practical task management application using Ruby on Rails and gained hands-on experience in web application development.

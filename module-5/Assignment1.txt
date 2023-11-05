@@ -1,0 +1,60 @@
+Custom Attribute Accessors
+
+Objective: To practice metaprogramming by creating custom attribute accessors in Ruby.
+
+Task:
+
+In this assignment, students will work on creating custom attribute accessors using metaprogramming techniques in Ruby. This assignment aims to reinforce their understanding of metaprogramming concepts and how to implement custom accessors to control attribute access.
+
+Instructions:
+
+Class Definition:
+
+Instruct students to define a Ruby class. The class should have attributes (instance variables) for which they want to create custom accessors.
+Custom Attribute Accessors:
+
+Explain to students that they need to implement custom attribute accessor methods for their class. These methods should allow controlled access to the instance variables.
+Students should create custom getter and setter methods for each attribute. The getter method should return the value of the attribute, and the setter method should set the value of the attribute.
+Metaprogramming:
+
+Emphasize the use of metaprogramming techniques to create these custom accessors. Specifically, students should use Ruby's define_method to dynamically define the getter and setter methods for each attribute.
+Demonstration:
+
+Instruct students to create instances of their class and demonstrate how the custom attribute accessors work. They should show how to set and retrieve attribute values using these custom methods.
+Commenting and Documentation:
+
+Encourage students to include comments and documentation in their code to explain how they used metaprogramming to create custom accessors and how these accessors work.
+Example:
+
+
+class Student
+  # Define attributes
+  attr_accessor :name, :age
+
+  # Create custom attribute accessors using metaprogramming
+  [:name, :age].each do |attribute|
+    define_method(attribute) do
+      instance_variable_get("@#{attribute}")
+    end
+
+    define_method("#{attribute}=") do |value|
+      instance_variable_set("@#{attribute}", value)
+    end
+  end
+end
+
+# Demonstrate custom accessors
+student = Student.new
+student.name = "Alice"
+student.age = 25
+
+puts "Name: #{student.name}"
+puts "Age: #{student.age}"
+
+
+Evaluation Criteria:
+
+Correct implementation of custom attribute accessors using metaprogramming.
+Effective demonstration of how these custom accessors control attribute access.
+Clear and organized code with comments explaining the metaprogramming approach.
+Proper usage and testing of the custom accessors.

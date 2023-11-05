@@ -1,0 +1,48 @@
+Methods and Functions in Ruby
+
+Objective: To deepen the understanding of methods and functions in Ruby.
+
+Task:
+In this assignment, students will explore the concept of methods and functions in Ruby. They will create a Ruby program that calculates the area and perimeter of geometric shapes using methods. The assignment is designed to help students grasp the various aspects of method definition, argument types, variable scope, and error handling. Here are the details of the assignment:
+
+Geometric Shapes Program:
+
+Instruct students to develop a Ruby program that calculates the area and perimeter of geometric shapes, specifically rectangles and circles.
+Create separate methods for calculating the area and perimeter of each shape. These methods should accept relevant parameters as arguments.
+Define two methods for rectangles: one for calculating the area and another for calculating the perimeter.
+Define two methods for circles: one for calculating the area and another for calculating the circumference.
+Encourage students to name methods descriptively, such as calculate_rectangle_area, calculate_rectangle_perimeter, calculate_circle_area, and calculate_circle_circumference.
+Method Arguments:
+
+Introduce different types of method arguments:
+Required Arguments: Instruct students to use required arguments for basic geometric calculations (e.g., length and width for rectangles, radius for circles).
+Optional Arguments: Show students how to use optional arguments for shapes with additional properties (e.g., specifying precision for rounding results).
+Keyword Arguments: Explain the concept of keyword arguments and demonstrate their use in method definition and invocation.
+Variable Scope:
+
+Discuss variable scope in Ruby, including local variables and instance variables.
+Emphasize the difference between local variables defined within a method and instance variables defined at the class level.
+Illustrate how instance variables can be used to share data between methods in the same class.
+Error Handling:
+
+Encourage students to implement error handling within methods to gracefully handle exceptions.
+Demonstrate how to use begin, rescue, and ensure blocks to capture and manage exceptions.
+Ensure that the program handles common errors, such as invalid input (e.g., negative dimensions for shapes).
+User Interaction:
+
+Create a user-friendly command-line interface that prompts the user to choose a shape (rectangle or circle) and provide the necessary input (e.g., dimensions, precision).
+Call the corresponding methods to calculate the area and perimeter or circumference.
+Display the results to the user with clear labels and formatted output.
+Testing:
+
+Encourage students to thoroughly test their program with different inputs to ensure that the calculations are accurate and error handling is effective.
+Verify that the program produces the expected results for various geometric shapes and scenarios.
+Evaluation Criteria:
+
+Correct implementation of methods for calculating area and perimeter (or circumference) of geometric shapes.
+Effective use of different types of method arguments (required, optional, keyword).
+Proper demonstration of variable scope, including local and instance variables.
+Successful implementation of error handling to manage exceptions gracefully.
+User-friendly command-line interface with clear prompts and formatted output.
+Accurate and reliable calculations for different geometric shapes and inputs.
+Adequate testing to ensure program functionality.

@@ -1,0 +1,38 @@
+Open-Source Contribution
+
+Objective: To encourage students to contribute to open-source Ruby projects.
+
+Task:
+
+In this assignment, students will have the opportunity to make meaningful contributions to open-source Ruby projects. Contributing to open-source projects not only enhances their Ruby development skills but also fosters collaboration within the Ruby community.
+
+Instructions:
+
+Project Selection:
+
+Instruct students to explore open-source Ruby projects hosted on platforms like GitHub. They should choose a project that aligns with their interests, skills, and expertise.
+Contribution:
+
+Task students with making a tangible contribution to the selected open-source project. Contributions can take various forms, including:
+Fixing a bug: Identify an existing issue or bug in the project's issue tracker and submit a pull request with a fix.
+Adding a feature: Propose and implement a new feature or enhancement to the project.
+Improving documentation: Enhance project documentation by adding examples, clarifications, or usage instructions.
+Emphasize the importance of following the project's contribution guidelines and coding standards.
+Contribution Process:
+
+Require students to document their contribution process. They should:
+Describe how they found the project and what motivated them to contribute.
+Detail the steps they took to address the chosen issue or implement the feature.
+Include a summary of interactions with project maintainers or contributors, including any feedback received.
+Highlight any challenges encountered and how they were overcome.
+Reflection:
+
+Encourage students to reflect on the broader impact of open-source contributions in the Ruby community. They should consider questions such as:
+How does open-source software benefit the Ruby community and the development industry as a whole?
+What did they learn from the contribution process, and how will this experience influence their future work as Ruby developers?
+Evaluation Criteria:
+
+Selection of a suitable open-source Ruby project.
+Submission of a meaningful contribution, such as a bug fix, feature, or documentation improvement.
+Documentation of the contribution process, including clear steps and interactions with project maintainers.
+Reflection on the significance of open-source contributions and their personal growth as Ruby developers.

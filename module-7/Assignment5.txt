@@ -1,0 +1,49 @@
+Deployment and Finalization
+
+Objective: To prepare students for deploying their Ruby on Rails application.
+
+Task:
+
+In this final assignment, students will deploy the Task Management App they've been working on throughout the course. They will configure the production environment, test the deployed application, and create documentation for users.
+
+Instructions:
+
+Deployment Platform:
+
+Instruct students to choose a web hosting service for deploying their Ruby on Rails application. Suggest platforms like Heroku, AWS, or DigitalOcean.
+Production Environment Setup:
+
+Guide students through the process of configuring the production environment:
+Set up a production database (e.g., PostgreSQL) and configure database.yml for production.
+Configure environment variables for sensitive information (e.g., API keys, database credentials) securely.
+Deployment Process:
+
+Provide step-by-step instructions on how to deploy the application to the chosen hosting service. Include considerations like version control integration.
+Database Migration:
+
+Instruct students to run necessary database migrations in the production environment to ensure the database schema is up to date.
+Testing:
+
+Encourage students to thoroughly test the deployed application:
+Create a test user account to ensure user authentication works in the live environment.
+Verify that all features, including task management, user profiles, and notifications, function correctly.
+Documentation:
+
+Require students to create documentation that includes:
+A brief overview of the application's purpose and features.
+Instructions on how to access the deployed application (URL).
+Guidance on registering a user account and using the application.
+Troubleshooting tips for common issues users might encounter.
+Contact information for support or feedback.
+Submission:
+
+Instruct students to submit the following for evaluation:
+The URL to their deployed application.
+Documentation in a readable format (e.g., a README.md file).
+Evaluation Criteria:
+
+Successful deployment of the Ruby on Rails application to a web hosting service.
+Proper configuration of the production environment, including the database setup.
+Thorough testing of the deployed application to ensure all features work correctly.
+Well-structured and informative documentation that guides users on accessing and using the application.
+Attention to security considerations, such as securing environment variables.

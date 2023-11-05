@@ -1,0 +1,67 @@
+Error Logging and Reporting
+
+Objective: To practice error handling, error logging, and generating error reports in Ruby.
+
+Task:
+
+In this assignment, students will enhance a Ruby program by adding error-handling capabilities using begin and rescue blocks. They will implement error logging to capture detailed information about errors encountered during program execution and write these details to a log file. Additionally, students will create a report or summary of the errors for analysis.
+
+Instructions:
+
+Select or Create a Ruby Program:
+
+Ask students to choose an existing Ruby program that they have previously written or create a new one. Ensure that the program has sections where errors can potentially occur.
+Enhance Error Handling:
+
+Instruct students to identify sections of the program where errors might occur and implement error handling using begin and rescue blocks.
+Encourage them to define custom exception classes if needed to capture domain-specific errors.
+Error Logging:
+
+Guide students in setting up error logging within their program. They should use Ruby's built-in logging functionality (e.g., the Logger class).
+Specify that errors, along with detailed information (timestamp, error type, error message, and stack trace), should be written to a log file.
+Error Reporting:
+
+Require students to create a report or summary of the errors encountered during program execution.
+The report should include information about the total number of errors, the types of errors, and any additional context (e.g., specific input data).
+Testing:
+
+Encourage students to thoroughly test their program with various scenarios to ensure that error logging is functioning correctly and that the report is generated accurately.
+Documentation:
+
+Ask students to provide comments and documentation explaining the error-handling strategy, the purpose of error logging, and the format of the error report.
+Example (Error Logging and Reporting in a File Reader Program):
+
+ruby
+Copy code
+require 'logger'
+
+# Custom exception class for file errors
+class FileError < StandardError; end
+
+# Initialize a logger to write errors to a log file
+logger = Logger.new('error_log.txt')
+
+begin
+  # Attempt to read a file
+  file = File.open('non_existent_file.txt', 'r')
+rescue Errno::ENOENT => e
+  # Log the error
+  logger.error("FileError: #{e.message}\n#{e.backtrace.join("\n")}")
+  raise FileError, "File not found: #{e.message}"
+end
+
+# Other parts of the program...
+
+# At the end of the program, generate an error report
+error_count = File.readlines('error_log.txt').count
+error_report = "Error Report:\nTotal Errors: #{error_count}\n"
+
+# Display the error report
+puts error_report
+Evaluation Criteria:
+
+Implementation of error handling using begin and rescue blocks in relevant sections of the program.
+Successful configuration of error logging to capture error details (timestamp, error type, message, stack trace) in a log file.
+Creation of an error report that summarizes the errors encountered during program execution.
+Thorough testing of the program to ensure proper error logging and reporting.
+Clear and organized code with comments explaining the error-handling strategy and the purpose of error logging and reporting.

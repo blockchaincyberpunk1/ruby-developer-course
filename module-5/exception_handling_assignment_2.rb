@@ -1,0 +1,70 @@
+# Assignment: Exception Handling with begin and rescue Blocks in Ruby
+
+# Assignment Overview:
+# In this assignment, you will practice exception handling in Ruby using the begin and rescue blocks.
+# You will work on coding exercises that involve handling specific exceptions and using exception objects to gain insight into the cause of the error.
+
+# Exercise 1: Division by Zero Exception Handling
+
+# Step 1: Write a Ruby program that prompts the user to enter two numbers: a numerator and a denominator.
+begin
+    puts "Enter the numerator:"
+    numerator = gets.chomp.to_i
+  
+    puts "Enter the denominator:"
+    denominator = gets.chomp.to_i
+  
+    # Attempt division
+    result = numerator / denominator
+    puts "Result: #{result}"
+  rescue ZeroDivisionError
+    puts "Error: Division by zero is not allowed."
+  end
+  
+  # Exercise 2: File Reading Exception Handling
+  
+  # Step 1: Create a text file named "data.txt" and write a few lines of text into it.
+  # Step 2: Write a Ruby program that attempts to read the content of the "data.txt" file.
+  begin
+    file_content = File.read("data.txt")
+    puts "File content: #{file_content}"
+  rescue Errno::ENOENT
+    puts "Error: The file 'data.txt' does not exist."
+  end
+  
+  # Exercise 3: Custom Exception Handling
+  
+  # Step 1: Define a custom exception class named InvalidInputError that inherits from the standard StandardError class.
+  class InvalidInputError < StandardError
+  end
+  
+  # Step 2: Write a Ruby program that prompts the user to enter a positive integer.
+  begin
+    puts "Enter a positive integer:"
+    input = gets.chomp.to_i
+  
+    if input <= 0
+      raise InvalidInputError, "Invalid input. Please enter a positive integer."
+    else
+      puts "You entered: #{input}"
+    end
+  rescue InvalidInputError => e
+    puts "Error: #{e.message}"
+  end
+  
+  # Additional Instructions:
+  # Documentation: Include comments explaining the purpose and functionality of each part of your code.
+  # Code Clarity: Maintain a well-organized code structure with proper indentation.
+  # Submission:
+  
+  # Compile your Ruby script file and your documentation into a single folder.
+  
+  # Assessment:
+  # Your assignment will be assessed based on your ability to implement effective exception handling using begin and rescue blocks and the clarity of your documentation.
+  
+  # Submission:
+  # Compile your assignment files (Ruby script file, documentation) into a single folder.
+  # Submit the folder through the designated platform by [submission deadline].
+  
+  # This assignment will provide you with practical experience in using begin and rescue blocks to handle exceptions and ensure the robustness of your Ruby programs.
+  

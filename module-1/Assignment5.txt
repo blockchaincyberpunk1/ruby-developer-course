@@ -1,0 +1,52 @@
+Functions and Modularity
+
+Objective: To emphasize the importance of functions and modularity in Ruby programming.
+
+Task:
+In this assignment, students will practice designing modular Ruby programs by developing a program that calculates the area and perimeter of geometric shapes (e.g., rectangles, circles) using functions. They will encapsulate related functionality into separate Ruby modules and demonstrate their use. Additionally, students will implement a simple command-line menu system that allows users to interact with different functions. This assignment aims to highlight the benefits of code organization and reusability through modular design.
+
+Instructions:
+
+Geometric Shapes Module:
+
+Instruct students to create a Ruby module named "GeometricShapes" that contains functions for calculating the area and perimeter of geometric shapes.
+Provide support for at least two shapes (e.g., rectangles and circles). Each shape should have dedicated functions for area and perimeter calculations.
+Ensure that the functions accept necessary input parameters (e.g., dimensions or radius) and return calculated values.
+User Interaction:
+
+Develop a simple command-line menu system that allows users to select a geometric shape and specify dimensions or radius for calculations.
+Encourage students to use the "gets" method for user input and provide clear prompts.
+Incorporate error handling to handle invalid user input gracefully.
+Modular Design:
+
+Instruct students to create a separate Ruby script (file) for the main program logic.
+Import the "GeometricShapes" module into the main script to access the shape calculation functions.
+Use the imported module functions to perform area and perimeter calculations based on user input.
+Menu Options:
+
+Create a menu that provides options for users to:
+Calculate the area and perimeter of a rectangle.
+Calculate the area and circumference of a circle.
+Exit the program.
+User Experience:
+
+Ensure that the program provides clear instructions and returns the calculated results to the user.
+Consider providing additional options, such as repeating calculations or returning to the main menu after each calculation.
+Documentation:
+
+Encourage students to include comments and documentation to explain the purpose and functionality of each module and function.
+Document the input parameters and expected return values of the functions.
+Testing:
+
+Test the program with various inputs to ensure accurate calculations and proper user interaction.
+Verify that the modular design allows for code reuse and maintainability.
+Evaluation Criteria:
+
+Correct implementation of the "GeometricShapes" module with functions for area and perimeter calculations.
+Proper user interaction through a command-line menu.
+Accurate calculations and handling of user input.
+Effective use of modular design principles, including importing and using modules.
+Clear and user-friendly menu options and prompts.
+Error handling for invalid input.
+Code documentation and comments for clarity.
+Thorough testing to validate the program's functionality and modular design.
